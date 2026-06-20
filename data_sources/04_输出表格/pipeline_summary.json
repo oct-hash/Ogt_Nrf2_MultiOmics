@@ -1,0 +1,23 @@
+{
+  "total_compounds_screened": 24185,
+  "pains_compounds_removed": 353,
+  "known_nrf2_activators_removed": 216,
+  "total_filtered_out": 358,
+  "non_pains_novel_candidates": 1692,
+  "non_pains_with_p_lt_0_05": 5698,
+  "top_non_pains_compounds": [
+    "LJP006",
+    "LJP005",
+    "Ciclopirox",
+    "8-Azaguanine",
+    "Anisomycin",
+    "Nickel Sulfate",
+    "Phorbol 12-Myristate 13-Acetate",
+    "Menadione",
+    "Estradiol",
+    "Thioridazine"
+  ],
+  "auc_roc": 0.737,
+  "enrichment_factor_top10pct": 3.98,
+  "mann_whitney_p": 1.52e-33
+}

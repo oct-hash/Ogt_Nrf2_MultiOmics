@@ -1,0 +1,9 @@
+sender,receiver,ligand,receptor,cellchat_score,cpdb_pval,pathway,nrf2_relevant,ferroptosis_relevant
+Macrophage,Cardiomyocyte,Spp1,Cd44,0.53512967,0.0,ECM,False,False
+Neutrophil,Cardiomyocyte,Spp1,Cd44,0.53354216,0.0,ECM,False,False
+Macrophage,Pericyte,Spp1,Cd44,0.5257543,0.0,ECM,False,False
+Neutrophil,Pericyte,Spp1,Cd44,0.5241633,0.0,ECM,False,False
+Macrophage,Pericyte,Igf1,Igf1r,0.25458393,0.0,Growth_Factor,False,False
+Macrophage,Cardiomyocyte,Igf1,Igf1r,0.22318703,0.006,Growth_Factor,False,False
+Neutrophil,Pericyte,Jag1,Notch1,0.06374475,0.002,Morphogen,False,False
+Macrophage,Pericyte,Jag1,Notch1,0.0628112,0.003,Morphogen,False,False

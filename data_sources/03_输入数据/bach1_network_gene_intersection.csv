@@ -1,0 +1,28 @@
+﻿gene,category,current_model_role,bach1_chipseq_peak,fold_change_24h,fold_change_72h,bach1_regulation,evidence_strength,current_model_bach1_rule,model_data_consistent,notes
+OGT,O-GlcNAc Cycling,O-GlcNAc transferase,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+OGA,O-GlcNAc Cycling,O-GlcNAcase,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+NFE2L2,NRF2 Pathway,Master antioxidant TF,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+KEAP1,NRF2 Pathway,NRF2 inhibitor (sensor),,,,unknown,unknown,BACH1-insensitive (default),unknown,
+BACH1,NRF2 Pathway,NRF2 competitor,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+GPX4,Ferroptosis,Anti-ferroptosis (lipid peroxide scavenger),,,,unknown,unknown,BACH1-insensitive (default),unknown,
+ACSL4,Ferroptosis,Pro-ferroptosis (lipid metabolism),,,,unknown,unknown,BACH1-insensitive (default),unknown,
+SLC7A11,Ferroptosis,Anti-ferroptosis (cystine import),True,-0.66,-0.42,activated,strong,BACH1-insensitive (model does not include BACH1 regulation of SLC7A11),MODEL ERROR: BACH1 activates but model says insensitive,"CRITICAL: BACH1 is an ACTIVATOR of SLC7A11, not repressor"
+HMOX1,Ferroptosis,Heme degradation / free iron,True,2.33,7.19,repressed,strong,BACH1-insensitive (model does not include BACH1 regulation of HMOX1),MODEL ERROR: BACH1 represses but model says insensitive,Canonical BACH1 target; tested by qPCR and ChIP
+FTH1,Ferroptosis,Iron storage (ferritin),True,1.68,,repressed,moderate,BACH1-insensitive (model does not include BACH1 regulation of FTH1),MODEL ERROR: BACH1 represses but model says insensitive,
+FTL,Ferroptosis,Iron storage (ferritin light chain),True,,,no_change,no_effect,BACH1-insensitive (model does not include BACH1 regulation of FTL),PARTIALLY CONSISTENT (no expression change but model missing ChIP evidence),
+TFRC,Ferroptosis,Iron import (transferrin receptor),,,,unknown,unknown,BACH1-insensitive (default),unknown,
+NQO1,Antioxidant,NAD(P)H quinone dehydrogenase,False,,,indirect,none,BACH1 --| NQO1 (direct repression per model),MODEL ERROR: Not a direct target but model says direct repression,NOT in Warnatz 59 targets. Regulated via NRF2-BACH1 ARE competition (indirect).
+PRDX1,Antioxidant,Peroxiredoxin 1,False,,,indirect,none,BACH1 --| PRDX1 (direct repression per model),MODEL ERROR: Not a direct target but model says direct repression,NOT in Warnatz 59 targets. Regulated via NRF2-BACH1 ARE competition (indirect).
+GCLC,Antioxidant,Glutathione synthesis (catalytic),True,,,no_change,no_effect,BACH1-insensitive (model does not include BACH1 regulation of GCLC),PARTIALLY CONSISTENT (no expression change but model missing ChIP evidence),Has ChIP peak but no expression change (compensation mechanism)
+GCLM,Antioxidant,Glutathione synthesis (modulatory),True,1.65,2.0,repressed,strong,BACH1-insensitive (model does not include BACH1 regulation of GCLM),MODEL ERROR: BACH1 represses but model says insensitive,
+TXN,Antioxidant,Thioredoxin,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+TXN2,Antioxidant,Mitochondrial thioredoxin,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+SRXN1,Antioxidant,Sulfiredoxin,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+SQSTM1,Antioxidant,p62 / autophagy adaptor,True,1.58,1.42,repressed,moderate,BACH1-insensitive (model does not include BACH1 regulation of SQSTM1),MODEL ERROR: BACH1 represses but model says insensitive,
+G6PD,Antioxidant,NADPH production (PPP),,,,unknown,unknown,BACH1-insensitive (default),unknown,
+ME1,Antioxidant,Malic enzyme (NADPH production),True,,1.45,repressed,moderate,BACH1-insensitive (model does not include BACH1 regulation of ME1),MODEL ERROR: BACH1 represses but model says insensitive,
+HIF1A,Signaling,Hypoxia-inducible factor,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+NFKB1,Signaling,NF-kB subunit,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+RELA,Signaling,NF-kB p65 subunit,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+STAT3,Signaling,STAT3 TF,,,,unknown,unknown,BACH1-insensitive (default),unknown,
+PTGS2,Signaling,COX-2 / prostaglandin synthesis,,,,unknown,unknown,BACH1-insensitive (default),unknown,

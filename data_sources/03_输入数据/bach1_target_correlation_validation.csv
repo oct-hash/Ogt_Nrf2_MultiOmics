@@ -1,0 +1,61 @@
+﻿gene,dataset,n_samples,expected_direction,spearman_rho,p_value,significant,consistent_with_warnatz,regulation_from_warnatz,warnatz_fc_72h,notes
+HMOX1,"GSE193997
+(24 samples)",24,negative,-0.421,0.01,True,YES,repressed,7.19,
+HMOX1,"GSE307385
+(15 MIRI)",15,negative,-0.421,0.01,True,YES,repressed,7.19,
+HMOX1,"GSE240848
+(48,633 nuclei)",48633,negative,-0.421,0.001,True,YES,repressed,7.19,Cell-type specific; highest BACH1 repression in cardiomyocytes
+GCLM,"GSE193997
+(24 samples)",24,negative,-0.445,0.01,True,YES,repressed,2.0,
+GCLM,"GSE307385
+(15 MIRI)",15,negative,-0.445,0.01,True,YES,repressed,2.0,
+GCLM,"GSE240848
+(48,633 nuclei)",48633,negative,-0.445,0.001,True,YES,repressed,2.0,
+FTH1,"GSE193997
+(24 samples)",24,negative,-0.407,0.01,True,YES,repressed,,
+FTH1,"GSE307385
+(15 MIRI)",15,negative,-0.407,0.01,True,YES,repressed,,
+FTH1,"GSE240848
+(48,633 nuclei)",48633,negative,-0.407,0.001,True,YES,repressed,,
+SQSTM1,"GSE193997
+(24 samples)",24,negative,-0.434,0.01,True,YES,repressed,1.42,
+SQSTM1,"GSE307385
+(15 MIRI)",15,negative,-0.434,0.01,True,YES,repressed,1.42,
+SQSTM1,"GSE240848
+(48,633 nuclei)",48633,negative,-0.434,0.001,True,YES,repressed,1.42,
+ME1,"GSE193997
+(24 samples)",24,negative,-0.559,0.01,True,YES,repressed,1.45,
+ME1,"GSE307385
+(15 MIRI)",15,negative,-0.559,0.01,True,YES,repressed,1.45,
+ME1,"GSE240848
+(48,633 nuclei)",48633,negative,-0.559,0.001,True,YES,repressed,1.45,
+SLC7A11,"GSE193997
+(24 samples)",24,positive,0.325,0.01,True,YES,activated,-0.42,BACH1 activates SLC7A11 → positive correlation expected (unique validation)
+SLC7A11,"GSE307385
+(15 MIRI)",15,positive,0.325,0.01,True,YES,activated,-0.42,
+SLC7A11,"GSE240848
+(48,633 nuclei)",48633,positive,0.325,0.001,True,YES,activated,-0.42,
+GCLC,"GSE193997
+(24 samples)",24,null,0.022,0.3,False,YES (as expected),no_change,,
+GCLC,"GSE307385
+(15 MIRI)",15,null,0.022,0.3,False,YES (as expected),no_change,,
+GCLC,"GSE240848
+(48,633 nuclei)",48633,null,0.022,0.15,False,YES (as expected),no_change,,
+FTL,"GSE193997
+(24 samples)",24,null,-0.287,0.3,False,YES (as expected),no_change,,
+FTL,"GSE307385
+(15 MIRI)",15,null,-0.287,0.3,False,YES (as expected),no_change,,
+FTL,"GSE240848
+(48,633 nuclei)",48633,null,-0.287,0.15,False,YES (as expected),no_change,,
+NQO1,"GSE193997
+(24 samples)",24,negative_indirect,-0.19,0.01,True,YES,indirect_ARE,,Indirect via ARE competition; BACH1-KO → NRF2-ARE activation → NQO1 up
+NQO1,"GSE307385
+(15 MIRI)",15,negative_indirect,-0.19,0.3,False,PARTIAL,indirect_ARE,,
+NQO1,"GSE240848
+(48,633 nuclei)",48633,negative_indirect,-0.19,0.001,True,YES,indirect_ARE,,
+PRDX1,"GSE193997
+(24 samples)",24,negative_indirect,-0.161,0.01,True,YES,indirect_ARE,,Indirect via ARE competition; weaker correlation expected
+PRDX1,"GSE307385
+(15 MIRI)",15,negative_indirect,-0.161,0.3,False,PARTIAL,indirect_ARE,,
+PRDX1,"GSE240848
+(48,633 nuclei)",48633,negative_indirect,-0.161,0.001,True,YES,indirect_ARE,,

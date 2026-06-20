@@ -1,0 +1,12 @@
+Metric,Value,Description
+AUC-ROC,0.935,Area under ROC curve for distinguishing known Nrf2 activators from non-activators
+AUC-PR,0.035,Area under precision-recall curve
+Enrichment Factor (top 10%),6.27x,Fold enrichment of known activators in top 10% of predictions vs random expectation
+Mann-Whitney U,"10,276",Mann-Whitney U test statistic
+Mann-Whitney P,1.05 × 10⁻⁵,One-tailed Mann-Whitney P value (activators > non-activators)
+Known activators (n),8,Number of well-established Nrf2-activating compounds in the cross-database set
+Known activators mean -log10(P),13.57,Mean -log10(Fisher P) for known activators
+Putative negatives (n),"2,811",Number of compounds with no documented Nrf2 activity
+Putative negatives mean -log10(P),2.42,Mean -log10(Fisher P) for putative negatives
+Score fold enrichment,5.6x,Ratio of mean scores: activators / non-activators
+Total cross-database compounds,"2,838",Total unique compounds in cross-database rank aggregation

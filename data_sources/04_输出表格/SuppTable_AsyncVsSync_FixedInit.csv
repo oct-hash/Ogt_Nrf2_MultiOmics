@@ -1,0 +1,8 @@
+"Condition","NTrials","AsyncConvergenceRate","SyncMatchRate","UniqueAsyncAttractors","MeanAsyncConvergeSteps","MedianAsyncConvergeSteps"
+"Sham",500,1,0.844,30,137.2,135
+"WT_IR",500,1,0.824,28,136.7,135.5
+"Ogt_KO",500,1,0.786,32,134.7,132
+"Oga_KO",500,1,0.78,31,134.6,132
+"Nrf2_OE",500,1,0.796,31,135.2,133
+"Nrf2_KO",500,1,0.828,26,137.7,135
+"BACH1_KO",500,1,0.824,31,135.4,133.5

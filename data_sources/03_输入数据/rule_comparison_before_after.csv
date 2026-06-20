@@ -1,0 +1,27 @@
+﻿node,original_rule,revised_rule,revision,evidence,category
+OGT,OGT = OGT_basal,OGT = OGT_basal,unchanged,N/A,O-GlcNAc
+OGA,OGA = OGA_basal,OGA = OGA_basal,unchanged,N/A,O-GlcNAc
+NFE2L2,NFE2L2 = NOT KEAP1,NFE2L2 = NOT KEAP1,unchanged,N/A,NRF2 Pathway
+KEAP1,KEAP1 = KEAP1_basal,KEAP1 = KEAP1_basal,unchanged,N/A,NRF2 Pathway
+BACH1,BACH1 = BACH1_basal AND NOT heme,BACH1 = BACH1_basal AND NOT heme,unchanged,N/A,NRF2 Pathway
+ARE_Occupancy,N/A (new),ARE_Occupancy = NRF2 AND NOT BACH1,NEW NODE,Lebeau 2023 + Redox Biol 2025: BACH1 competes with NRF2 for ARE binding sites,Intermediate (NEW)
+NQO1,NQO1 = NRF2 AND NOT BACH1,NQO1 = ARE_Occupancy,FIXED: BACH1 → indirect via ARE competition (not direct repression),Warnatz 2011: NQO1 NOT in 59 BACH1 targets. Lebeau 2023: ARE competition mechanism.,Antioxidant
+PRDX1,PRDX1 = NRF2 AND NOT BACH1,PRDX1 = ARE_Occupancy,FIXED: BACH1 → indirect via ARE competition (not direct repression),Warnatz 2011: PRDX1 NOT in 59 BACH1 targets. Lebeau 2023: ARE competition mechanism.,Antioxidant
+HMOX1,HMOX1 = NRF2,HMOX1 = NRF2 AND NOT BACH1,FIXED: Added BACH1 repression (strongest: 7.19x up on BACH1 KD),"Warnatz 2011: ChIP-seq ✓, 24h +2.33x, 72h +7.19x",Ferroptosis
+GCLM,GCLM = NRF2,GCLM = NRF2 AND NOT BACH1,FIXED: Added BACH1 repression (2.00x up on BACH1 KD),"Warnatz 2011: ChIP-seq ✓, 24h +1.65x, 72h +2.00x",Antioxidant
+GCLC,GCLC = NRF2,GCLC = NRF2  # Note: BACH1 binds but no net expression change (compensation),ANNOTATED: Noted ChIP-seq binding with compensation masking,"Warnatz 2011: ChIP-seq ✓, but no expression change on KD → compensation mechanism",Antioxidant
+SLC7A11,SLC7A11 = NRF2,SLC7A11 = (NRF2 OR BACH1) AND NOT KEAP1,"FIXED: BACH1 is an ACTIVATOR (KD → -58% at 24h, -42% at 72h), not insensitive. Changed from NRF2-only to NRF2+BACH1 dual activation.","Warnatz 2011: ChIP-seq ✓, BACH1 KD DECREASES SLC7A11 → BACH1 is activator",Ferroptosis
+FTH1,FTH1 = NRF2,FTH1 = NRF2 AND NOT BACH1,FIXED: Added BACH1 repression (1.68x up on BACH1 KD),"Warnatz 2011: ChIP-seq ✓, 24h +1.68x",Ferroptosis
+SQSTM1,SQSTM1 = NRF2 AND NOT KEAP1,SQSTM1 = NRF2 AND NOT (KEAP1 OR BACH1),"FIXED: Added BACH1 repression (1.58x at 24h, 1.42x at 72h)","Warnatz 2011: ChIP-seq ✓, confirmed BACH1 target",Antioxidant
+ME1,ME1 = NRF2,ME1 = NRF2 AND NOT BACH1,FIXED: Added BACH1 repression (1.45x up at 72h),"Warnatz 2011: ChIP-seq ✓, late response",Antioxidant
+TXN,TXN = NRF2,TXN = NRF2,unchanged,N/A,Antioxidant
+TXN2,TXN2 = NRF2,TXN2 = NRF2,unchanged,N/A,Antioxidant
+SRXN1,SRXN1 = NRF2,SRXN1 = NRF2,unchanged,N/A,Antioxidant
+HIF1A,HIF1A = hypoxia,HIF1A = hypoxia,unchanged,N/A,Signaling
+NFKB1,NFKB1 = stress_signal,NFKB1 = stress_signal,unchanged,N/A,Signaling
+RELA,RELA = NFKB1,RELA = NFKB1,unchanged,N/A,Signaling
+STAT3,STAT3 = cytokine,STAT3 = cytokine,unchanged,N/A,Signaling
+FTL,FTL = NRF2,FTL = NRF2,unchanged,N/A,Ferroptosis
+TFRC,TFRC = TFRC_basal,TFRC = TFRC_basal,unchanged,N/A,Ferroptosis
+G6PD,G6PD = NRF2,G6PD = NRF2,unchanged,N/A,Antioxidant
+PTGS2,PTGS2 = NFKB1 OR STAT3,PTGS2 = NFKB1 OR STAT3,unchanged,N/A,Signaling

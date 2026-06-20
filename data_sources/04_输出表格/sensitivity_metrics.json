@@ -1,0 +1,14 @@
+{
+  "auc_roc": 0.7370400763539565,
+  "auc_pr": 0.03504028610643883,
+  "enrichment_factor_top10pct": 3.9821543131640302,
+  "n_positive": 216,
+  "n_negative": 23458,
+  "n_total": 23674,
+  "mann_whitney_u": 3734529.0,
+  "mann_whitney_p": 1.5240196077914927e-33,
+  "positive_mean_score": 4.177533153886113,
+  "negative_mean_score": 1.2994749112548896,
+  "positive_median_score": 2.149709808987975,
+  "negative_median_score": 0.4639426616081862
+}

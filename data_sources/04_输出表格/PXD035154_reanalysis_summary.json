@@ -1,0 +1,128 @@
+{
+  "dataset": "PXD035154",
+  "description": "Mouse cardiac I/R, TMT10plex proteomics, Hofmann et al. Circulation 2024",
+  "tmt_channels": {
+    "pool1_2d": {
+      "sham": [
+        "129L",
+        "129H"
+      ],
+      "ir": [
+        "130L",
+        "130H",
+        "131L"
+      ]
+    },
+    "pool2_2w": {
+      "sham": [
+        "129L",
+        "129H"
+      ],
+      "ir": [
+        "130L",
+        "130H",
+        "131L"
+      ]
+    }
+  },
+  "pool1_2d": {
+    "total_proteins_quantified": 6143,
+    "significant_p005": 45,
+    "n_total": 27,
+    "n_detected": 17,
+    "n_concordant": 9,
+    "n_discordant": 8,
+    "concordance_pct": 52.9,
+    "spearman_rho": 0.233,
+    "spearman_p": 0.3682,
+    "concordant_genes": [
+      "GFPT1",
+      "HMOX1",
+      "FTH1",
+      "GCLC",
+      "GCLM",
+      "TXN",
+      "TXN2",
+      "TXNRD1",
+      "ME1"
+    ],
+    "discordant_genes": [
+      "OGT",
+      "OGA",
+      "GFPT2",
+      "GPX4",
+      "ACSL4",
+      "TFRC",
+      "NQO1",
+      "PRDX1"
+    ],
+    "undetected_genes": [
+      "NFE2L2",
+      "KEAP1",
+      "BACH1",
+      "MAF",
+      "NFE2",
+      "NFE2L1",
+      "SLC7A11",
+      "FTL",
+      "SLC40A1",
+      "HAMP"
+    ]
+  },
+  "pool2_2w": {
+    "total_proteins_quantified": 6105,
+    "significant_p005": 5,
+    "n_total": 27,
+    "n_detected": 18,
+    "n_concordant": 9,
+    "n_discordant": 9,
+    "concordance_pct": 50.0,
+    "spearman_rho": 0.19,
+    "spearman_p": 0.4502,
+    "concordant_genes": [
+      "KEAP1",
+      "BACH1",
+      "GFPT1",
+      "FTH1",
+      "NQO1",
+      "GCLC",
+      "GCLM",
+      "TXN",
+      "ME1"
+    ],
+    "discordant_genes": [
+      "OGT",
+      "OGA",
+      "GFPT2",
+      "GPX4",
+      "ACSL4",
+      "TFRC",
+      "PRDX1",
+      "TXN2",
+      "TXNRD1"
+    ],
+    "undetected_genes": [
+      "NFE2L2",
+      "MAF",
+      "NFE2",
+      "NFE2L1",
+      "SLC7A11",
+      "HMOX1",
+      "FTL",
+      "SLC40A1",
+      "HAMP"
+    ]
+  },
+  "comparison": {
+    "PXD046631": {
+      "concordance": "50.7%",
+      "spearman_rho": 0.098,
+      "detected": 14
+    },
+    "PXD040135": {
+      "concordance": "33.3%",
+      "spearman_rho": null,
+      "detected": 3
+    }
+  }
+}

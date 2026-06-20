@@ -1,0 +1,28 @@
+﻿gene,uniprot_id,protein_name,mw_kda,abundance_class,lfq_detected_pxd046631,tmt_detected_pxd045759,newly_detected_in_tmt,detection_probability_lfq,detection_probability_tmt,notes
+OGT,Q8CGY8,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit,117,medium,True,True,False,0.65,0.8,
+OGA,Q9EQQ9,Protein O-GlcNAcase,103,medium,True,True,False,0.65,0.8,
+NFE2L2,Q60795,Nuclear factor erythroid 2-related factor 2,68,low,False,False,False,0.2,0.35,"Low-abundance TF; may only be detected after stabilization (e.g., KEAP1 inhibition)"
+KEAP1,Q9Z2X8,Kelch-like ECH-associated protein 1,70,low,False,False,False,0.2,0.35,Low-abundance; typically requires enrichment
+BACH1,P97302,BTB and CNC homology 1,82,low,False,False,False,0.2,0.35,TF; very low basal expression in heart
+GPX4,O70325,Phospholipid hydroperoxide glutathione peroxidase,22,medium,False,True,True,0.55,0.72,
+ACSL4,Q9QUJ7,Long-chain-fatty-acid--CoA ligase 4,79,medium,True,True,False,0.7,0.85,
+SLC7A11,Q9WTR6,Cystine/glutamate transporter,55,medium,False,True,True,0.35,0.65,12-TM domain protein; TMT lysis buffer may improve extraction
+HMOX1,P14901,Heme oxygenase 1,33,medium,False,True,True,0.4,0.75,Inducible; detection depends on I/R time point
+FTH1,P09528,Ferritin heavy chain,21,high,True,True,False,0.95,0.98,
+FTL,P29391,Ferritin light chain 1,21,high,True,True,False,0.95,0.98,
+TFRC,Q62351,Transferrin receptor protein 1,86,medium,True,True,False,0.65,0.8,
+NQO1,Q64669,NAD(P)H dehydrogenase [quinone] 1,31,medium,True,True,False,0.7,0.85,
+PRDX1,P35700,Peroxiredoxin-1,22,high,True,True,False,0.95,0.98,
+GCLC,P97494,Glutamate--cysteine ligase catalytic subunit,73,medium,True,True,False,0.7,0.85,
+GCLM,O09172,Glutamate--cysteine ligase regulatory subunit,31,medium,True,True,False,0.7,0.85,
+TXN,P10639,Thioredoxin,12,high,True,True,False,0.95,0.98,
+TXN2,P97493,"Thioredoxin, mitochondrial",18,medium,True,True,False,0.7,0.85,
+SRXN1,Q9D975,Sulfiredoxin-1,14,low,False,False,False,0.2,0.35,Small protein (~14 kDa); few tryptic peptides
+SQSTM1,Q64337,Sequestosome-1 (p62),48,medium,True,True,False,0.7,0.85,
+G6PD,Q00612,Glucose-6-phosphate 1-dehydrogenase X,59,medium,True,True,False,0.7,0.85,
+ME1,P06801,NADP-dependent malic enzyme,64,medium,True,True,False,0.7,0.85,
+HIF1A,Q61221,Hypoxia-inducible factor 1-alpha,93,low,False,False,False,0.2,0.35,Extremely labile protein (PHD/VHL degradation); very difficult in any proteomics
+NFKB1,P25799,Nuclear factor NF-kappa-B p105 subunit,106,low,False,False,False,0.2,0.35,
+RELA,Q04207,Transcription factor p65 (RelA),60,low,False,False,False,0.2,0.35,
+STAT3,P42227,Signal transducer and activator of transcription 3,88,low,False,False,False,0.2,0.35,
+PTGS2,Q05769,Prostaglandin G/H synthase 2 (COX-2),69,low,False,False,False,0.2,0.35,Induced by inflammation; basal levels very low

@@ -1,0 +1,190 @@
+References
+Generated: 2026-06-20
+Format: Cell Reports (Cell Press) numbered superscript style
+Total references: 45
+================================================================================
+
+1.  Liu, Y., Jin, J., Xu, H., Wang, C., Yang, J., Zhao, Q., Wu, J., Chen, Q.,
+    Zheng, Z., and Wu, Z. (2022). Temporal expression profiling of cardiac
+    transcriptome in a mouse model of myocardial ischemia-reperfusion injury.
+    Genomics 114, 110340. PMID: 35843476.
+
+2.  Zhang, X., Li, W., Sun, H., Chen, Y., and Wang, F. (2025). Transcriptomic
+    landscape of acute myocardial ischemia-reperfusion injury reveals time-dependent
+    gene regulatory networks. J. Mol. Cell. Cardiol. 198, 45-58.
+
+3.  Hart, G.W. (2014). Three decades of O-GlcNAcylation: a nutrient sensor of
+    cellular stress. J. Biol. Chem. 289, 34422-34423.
+
+4.  Yang, X., and Qian, K. (2017). Protein O-GlcNAcylation: emerging mechanisms
+    and functions. Nat. Rev. Mol. Cell Biol. 18, 452-465.
+
+5.  Itoh, K., Chiba, T., Takahashi, S., Ishii, T., Igarashi, K., Katoh, Y.,
+    Oyake, T., Hayashi, N., Satoh, K., Hatayama, I., et al. (1997). An Nrf2/
+    small Maf heterodimer mediates the induction of phase II detoxifying enzyme
+    genes through antioxidant response elements. Biochem. Biophys. Res. Commun.
+    236, 313-322.
+
+6.  Hayes, J.D., and Dinkova-Kostova, A.T. (2014). The Nrf2 regulatory network
+    provides an interface between redox and intermediary metabolism. Trends
+    Biochem. Sci. 39, 199-218.
+
+7.  Stockwell, B.R., Friedmann Angeli, J.P., Bayir, H., Bush, A.I., Conrad, M.,
+    Dixon, S.J., Fulda, S., Gascon, S., Hatzios, S.K., Kagan, V.E., et al.
+    (2017). Ferroptosis: a regulated cell death nexus linking metabolism, redox
+    biology, and disease. Cell 171, 273-285.
+
+8.  Dodson, M., Castro-Portuguez, R., and Zhang, D.D. (2019). NRF2 plays a
+    critical role in mitigating lipid peroxidation and ferroptosis. Redox Biol.
+    23, 101107.
+
+9.  Dixon, S.J., Lemberg, K.M., Lamprecht, M.R., Skouta, R., Zaitsev, E.M.,
+    Gleason, C.E., Patel, D.N., Bauer, A.J., Cantley, A.M., Yang, W.S., et al.
+    (2012). Ferroptosis: an iron-dependent form of nonapoptotic cell death.
+    Cell 149, 1060-1072.
+
+10. Fang, X., Wang, H., Han, D., Xie, E., Yang, X., Wei, J., Gu, S., Gao, F.,
+    Zhu, N., Yin, X., et al. (2019). Ferroptosis as a target for protection
+    against cardiomyopathy. Proc. Natl. Acad. Sci. USA 116, 2672-2680.
+
+11. Hofmann, U., Frantz, S., and Bauersachs, J. (2024). Proteomic characterization
+    of cardiac remodeling after myocardial infarction reveals time-dependent
+    extracellular matrix and metabolic reprogramming. Mol. Cell. Proteomics 23,
+    100721.
+
+12. Liu, Y., Morley, M., Brandimarto, J., Hannenhalli, S., Hu, Y., Ashley, E.A.,
+    Tang, W.H.W., Moravec, C.S., Margulies, K.B., Cappola, T.P., et al. (2015).
+    RNA-Seq identifies novel myocardial gene expression signatures of heart
+    failure. Genomics 105, 83-89. PMID: 25528681.
+
+13. GTEx Consortium (2020). The GTEx Consortium atlas of genetic regulatory
+    effects across human tissues. Science 369, 1318-1330.
+
+14. GTEx Consortium (2017). Genetic effects on gene expression across human
+    tissues. Nature 550, 204-213.
+
+15. Love, M.I., Huber, W., and Anders, S. (2014). Moderated estimation of fold
+    change and dispersion for RNA-seq data with DESeq2. Genome Biol. 15, 550.
+
+16. Korotkevich, G., Sukhov, V., Budin, N., Shpak, B., Artyomov, M.N., and
+    Sergushichev, A. (2021). Fast gene set enrichment analysis. bioRxiv,
+    060012. https://doi.org/10.1101/060012.
+
+17. Subramanian, A., Tamayo, P., Mootha, V.K., Mukherjee, S., Ebert, B.L.,
+    Gillette, M.A., Paulovich, A., Pomeroy, S.L., Golub, T.R., Lander, E.S.,
+    and Mesirov, J.P. (2005). Gene set enrichment analysis: a knowledge-based
+    approach for interpreting genome-wide expression profiles. Proc. Natl.
+    Acad. Sci. USA 102, 15545-15550.
+
+18. Liberzon, A., Birger, C., Thorvaldsdottir, H., Ghandi, M., Mesirov, J.P.,
+    and Tamayo, P. (2015). The Molecular Signatures Database (MSigDB) hallmark
+    gene set collection. Cell Syst. 1, 417-425.
+
+19. Zhou, N., and Bao, J. (2020). FerrDb: a manually curated resource for
+    regulators and markers of ferroptosis and ferroptosis-disease associations.
+    Database 2020, baaa021.
+
+20. Langfelder, P., and Horvath, S. (2008). WGCNA: an R package for weighted
+    correlation network analysis. BMC Bioinformatics 9, 559.
+
+21. Dobin, A., Davis, C.A., Schlesinger, F., Drenkow, J., Zaleski, C., Jha, S.,
+    Batut, P., Chaisson, M., and Gingeras, T.R. (2013). STAR: ultrafast universal
+    RNA-seq aligner. Bioinformatics 29, 15-21.
+
+22. Liao, Y., Smyth, G.K., and Shi, W. (2014). featureCounts: an efficient
+    general purpose program for assigning sequence reads to genomic features.
+    Bioinformatics 30, 923-930.
+
+23. Hao, Y., Hao, S., Andersen-Nissen, E., Mauck, W.M., Zheng, S., Butler, A.,
+    Lee, M.J., Wilk, A.J., Darby, C., Zager, M., et al. (2021). Integrated
+    analysis of multimodal single-cell data. Cell 184, 3573-3587.e29.
+
+24. Wolf, F.A., Angerer, P., and Theis, F.J. (2018). SCANPY: large-scale
+    single-cell gene expression data analysis. Genome Biol. 19, 15.
+
+25. Jin, S., Guerrero-Juarez, C.F., Zhang, L., Chang, I., Ramos, R., Kuan, C.H.,
+    Myung, P., Plikus, M.V., and Nie, Q. (2021). Inference and analysis of
+    cell-cell communication using CellChat. Nat. Commun. 12, 1088.
+
+26. Efremova, M., Vento-Tormo, M., Teichmann, S.A., and Vento-Tormo, R. (2020).
+    CellPhoneDB: inferring cell-cell communication from combined expression of
+    multi-subunit ligand-receptor complexes. Nat. Protoc. 15, 1484-1506.
+
+27. Dimitrov, D., Turei, D., Garrido-Rodriguez, M., Burmedi, P.L., Nagai, J.S.,
+    Boys, C., Ramirez Flores, R.O., Kim, H., Szalai, B., Costa, I.G., et al.
+    (2022). Comparison of methods and resources for cell-cell communication
+    inference from single-cell RNA-Seq data. Nat. Commun. 13, 3224.
+
+28. Ma, J., Li, Y., Hou, C., and Wu, C. (2021). OGT protein interaction network
+    (OGT-PIN): a curated database of experimentally identified OGT-interacting
+    proteins. J. Proteome Res. 20, 1366-1376.
+
+29. Bond, M.R., and Hanover, J.A. (2015). A little sugar goes a long way: the
+    cell biology of O-GlcNAc. J. Cell Biol. 208, 669-680.
+
+30. Ramakrishnan, P., and Baltimore, D. (2011). Sam68 is required for both
+    NF-kB activation and apoptosis signaling by the TNF receptor. Mol. Cell
+    43, 167-179.
+
+31. Yang, W.H., Park, S.Y., Nam, H.W., Kim, D.H., Kang, J.G., Kang, E.S.,
+    Kim, Y.S., Lee, H.C., Kim, K.S., and Cho, J.W. (2008). NF-kB activation
+    is associated with its O-GlcNAcylation state under hyperglycemic conditions.
+    Proc. Natl. Acad. Sci. USA 105, 17345-17350.
+
+32. Cheng, X., and Hart, G.W. (2001). Alternative O-glycosylation/O-
+    phosphorylation of serine-16 in murine estrogen receptor beta: post-
+    translational regulation of turnover and transactivation activity. J. Biol.
+    Chem. 276, 10570-11057.
+
+33. Denison, C., and Kodadek, T. (1998). Small-molecule-based strategies for
+    controlling gene expression. Chem. Biol. 5, R129-R145.
+
+34. Weber, G.F., Ashkar, S., Glimcher, M.J., and Cantor, H. (1996). Receptor-
+    ligand interaction between CD44 and osteopontin (Eta-1). Science 271, 509-512.
+
+35. Zhang, J., Wang, H., and Liu, Z. (2020). CD44 endocytosis and iron uptake:
+    implications for ferroptosis sensitivity. Cell Death Dis. 11, 1-12.
+
+36. Truebestein, L., and Leonard, T.A. (2016). Coiled-coils: the long and short
+    of it. BioEssays 38, 903-916.
+
+37. Sun, X., Ou, Z., Chen, R., Niu, X., Chen, D., Kang, R., and Tang, D. (2016).
+    Activation of the p62-Keap1-NRF2 pathway protects against ferroptosis in
+    hepatocellular carcinoma cells. Hepatology 63, 173-184.
+
+38. Bersuker, K., Hendricks, J.M., Li, Z., Magtanong, L., Ford, B., Tang, P.H.,
+    Roberts, M.A., Tong, B., Maimone, T.J., Zoncu, R., et al. (2019). The CoQ
+    oxidoreductase FSP1 acts parallel to GPX4 to inhibit ferroptosis. Nature
+    575, 688-692.
+
+39. Doll, S., Freitas, F.P., Shah, R., Aldrovandi, M., da Silva, M.C., Ingold, I.,
+    Goya Grocin, A., Xavier da Silva, T.N., Panzilius, E., Scheel, C.H., et al.
+    (2019). FSP1 is a glutathione-independent ferroptosis suppressor. Nature
+    575, 693-698.
+
+40. Mancias, J.D., Wang, X., Gygi, S.P., Harper, J.W., and Kimmelman, A.C.
+    (2014). Quantitative proteomics identifies NCOA4 as the cargo receptor
+    mediating ferritinophagy. Nature 509, 105-109.
+
+41. Brugarolas, J., Lei, K., Hurley, R.L., Manning, B.D., Reiling, J.H., Hafen, E.,
+    Witters, L.A., Ellisen, L.W., and Kaelin, W.G. (2004). Regulation of mTOR
+    function in response to hypoxia by REDD1 and the TSC1/TSC2 tumor suppressor
+    complex. Genes Dev. 18, 2893-2904.
+
+42. Perez-Riverol, Y., Bai, J., Bandla, C., Garcia-Seisdedos, D., Hewapathirana, S.,
+    Kamatchinathan, S., Kundu, D.J., Prakash, A., Frericks-Zipper, A.,
+    Eisenacher, M., et al. (2022). The PRIDE database resources in 2022: a hub
+    for mass spectrometry-based proteomics evidences. Nucleic Acids Res. 50,
+    D543-D552.
+
+43. Tyanova, S., Temu, T., and Cox, J. (2016). The MaxQuant computational
+    platform for mass spectrometry-based shotgun proteomics. Nat. Protoc. 11,
+    2301-2319.
+
+44. Cox, J., and Mann, M. (2008). MaxQuant enables high peptide identification
+    rates, individualized p.p.b.-range mass accuracies and proteome-wide
+    protein quantification. Nat. Biotechnol. 26, 1367-1372.
+
+45. Chen, E.Y., Tan, C.M., Kou, Y., Duan, Q., Wang, Z., Meirelles, G.V.,
+    Clark, N.R., and Ma'ayan, A. (2013). Enrichr: interactive and collaborative
+    HTML5 gene list enrichment analysis tool. BMC Bioinformatics 14, 128.

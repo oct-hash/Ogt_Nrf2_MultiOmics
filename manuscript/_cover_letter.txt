@@ -1,0 +1,31 @@
+Cover Letter
+
+Dear Editor,
+
+We submit our manuscript entitled "Multi-omics integration reveals Ogt downregulation drives RELA/NF-kB-mediated Nrf2 activation and SPP1-CD44 paracrine ferroptosis signaling in acute myocardial ischemia-reperfusion injury" for consideration at Cell Reports.
+
+This study presents an integrative multi-omics characterization of the O-GlcNAc-Nrf2-ferroptosis regulatory axis in acute cardiac ischemia-reperfusion (I/R) injury. By combining two bulk RNA-seq cohorts (6,556 DEGs), single-nucleus transcriptomics (48,633 nuclei, 9 cell types), three independent proteomics platforms (LFQ and TMT), and cross-species external validation (GTEx v8, n = 431 healthy hearts; GSE57338, 177 HF vs 136 NF), we identify a cell-type-resolved signaling cascade: Ogt downregulation (log2FC = -0.56) in cardiomyocytes triggers RELA/NF-kB-mediated Nrf2 activation in myeloid cells, which is amplified by SPP1-CD44 paracrine crosstalk and executed through ferroptosis effector programs. Critically, we demonstrate that this signature is specific to acute I/R and is silenced or reversed in chronic human heart failure, establishing disease-stage specificity as a key dimension of Nrf2 biology in the heart.
+
+We believe this manuscript is well-suited for Cell Reports for three reasons. First, it provides a multi-omics resource spanning transcriptomic, proteomic, single-nucleus, and intercellular signaling layers — a resource that will enable future mechanistic studies of O-GlcNAc signaling and ferroptosis in cardiac injury. Second, every major finding is validated by an orthogonal method or independent dataset: SPP1-CD44 paracrine signaling is confirmed by both CellChat and CellPhoneDB; Nrf2 pathway activation is corroborated by GSEA, ChEA upstream regulator prediction, and AUCell single-cell regulon scoring; and mRNA-protein discordance (~50% concordance) is replicated across three independent proteomics platforms (PXD046631, PXD040135, PXD035154) spanning LFQ and TMT quantification. Third, the cross-species validation (mouse, rat, human) and the honest reporting of disease-stage specificity (the Nrf2 signature is not a generic heart failure marker but an acute injury response) elevate the study beyond a single-cohort discovery exercise.
+
+The novelty of this work lies in five key findings: (1) OGT does not directly O-GlcNAcylate the Nrf2/ferroptosis core machinery — RELA/NF-kB is the sole signaling intermediary connecting Ogt to Nrf2 activation; (2) the cell-type dichotomy (Ogt in cardiomyocytes/pericytes; Nrf2 effectors in myeloid cells) reveals paracrine rather than cell-autonomous regulation; (3) SPP1-CD44 is identified as the dominant myeloid-to-parenchymal signal by dual-method consensus; (4) ferritinophagy (FTH1 protein suppression despite mRNA induction) provides protein-level evidence for ferroptosis execution; and (5) the acute I/R specificity — confirmed by GTEx healthy baseline (OGT 39.2 vs HMOX1 3.0 TPM) and GSE57338 chronic HF reversal (31.5% directional concordance, binomial P = 1.0) — distinguishes this from a generic cardiac stress response.
+
+All raw and processed data are publicly available at GEO (GSE193997, GSE307385, GSE240848, GSE163129, GSE57338) and ProteomeXchange/PRIDE (PXD035154, PXD040135, PXD046631). GTEx v8 data were accessed via the GTEx Portal. All analysis code has been deposited at GitHub ([URL to be inserted]) and is publicly available as of the date of publication. The authors declare no competing interests.
+
+We confirm that this manuscript has not been published previously and is not under consideration elsewhere. All authors have read and approved the final version. We look forward to your editorial assessment.
+
+Sincerely,
+[Corresponding Author Name]
+[Institution]
+[Email]
+
+---
+
+Suggested Reviewers (3-5):
+1. [Name], [Institution] — expertise in O-GlcNAc signaling and cardiac metabolism
+2. [Name], [Institution] — expertise in ferroptosis and iron biology in the heart
+3. [Name], [Institution] — expertise in single-cell/nucleus cardiac transcriptomics
+4. [Name], [Institution] — expertise in Nrf2/KEAP1 redox biology
+5. [Name], [Institution] — expertise in computational multi-omics integration
+
+Reviewers to Exclude (if any): None.

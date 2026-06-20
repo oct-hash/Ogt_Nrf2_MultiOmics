@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+*.docx
+~$*.docx
+*.tmp
+.DS_Store
+Thumbs.db
+未完成.txt
+config.json

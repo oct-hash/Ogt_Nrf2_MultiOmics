@@ -1,0 +1,16 @@
+Drug Name,Fisher Combined P-value,Number of Databases,Database Sources,Is PAINS,Nrf2 Activity Class,Filter Reason
+withaferin-a,1.5181267304855021e-33,2,"LINCS_Down,LINCS_Up",True,medium,PAINS + Nrf2 activator
+celastrol,1.3579003226848609e-28,3,"DSigDB,LINCS_Down,LINCS_Up",True,medium,PAINS + Nrf2 activator
+resveratrol,7.283591274302339e-13,3,"DSigDB,LINCS_Down,LINCS_Up",True,high,PAINS + Nrf2 activator
+genistein,9.104455236199746e-13,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",True,medium,PAINS + Nrf2 activator
+curcumin,4.1378217480596314e-10,3,"DSigDB,LINCS_Down,LINCS_Up",True,high,PAINS + Nrf2 activator
+quercetin,1.5727005322659224e-06,3,"DSigDB,LINCS_Down,LINCS_Up",True,high,PAINS + Nrf2 activator
+garcinol,3.061293529354029e-06,3,"DSigDB,LINCS_Down,LINCS_Up",True,none,PAINS
+catechol,5.277625150382768e-06,2,"DSigDB,DrugMatrix",True,none,PAINS
+luteolin,2.9465671013740127e-05,3,"DSigDB,LINCS_Down,LINCS_Up",True,medium,PAINS + Nrf2 activator
+pterostilbene,0.0001031105578062,3,"DSigDB,LINCS_Down,LINCS_Up",False,medium,Known Nrf2 activator
+hydroquinone,0.0024027836639153,2,"DSigDB,DrugMatrix",True,none,PAINS
+rottlerin,0.0197904205740803,3,"DSigDB,LINCS_Down,LINCS_Up",True,none,PAINS
+phylloquinone,0.1738875684481269,2,"LINCS_Down,LINCS_Up",True,none,PAINS
+"chrysene-1,4-quinone",0.4188157346968801,2,"LINCS_Down,LINCS_Up",True,none,PAINS
+hypericin,0.9304496642343916,2,"LINCS_Down,LINCS_Up",True,none,PAINS

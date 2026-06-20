@@ -1,0 +1,250 @@
+Supplementary Materials Specification
+生成日期: 2026-06-20
+目标期刊: Cell Reports
+格式: PDF, 包含 Supplementary Figures (S1-S12) + Supplementary Tables (>=12)
+
+================================================================================
+SUPPLEMENTARY FIGURES (S1-S12)
+================================================================================
+
+S1. Bulk RNA-seq Quality Control for GSE193997 and GSE307385
+Data source: GSE193997 (24 samples), GSE307385 (15 samples)
+Panels:
+  A. PCA plot (PC1 vs PC2), colored by time point, GSE193997
+  B. PCA plot (PC1 vs PC2), colored by time point, GSE307385
+  C. Sample-to-sample correlation heatmap, GSE193997
+  D. Sample-to-sample correlation heatmap, GSE307385
+  E. DESeq2 dispersion plot, GSE193997
+  F. DESeq2 dispersion plot, GSE307385
+Verification: Sham samples cluster together in both PCAs; no outlier samples
+Status: [ ] Generated / [x] Pending
+
+S2. GSEA Permutation Test Results
+Data source: fgsea output (Nrf2-ARE custom gene set, FerrDb ferroptosis gene set, MSigDB Hallmarks)
+Panels:
+  A. Nrf2-ARE custom gene set: enrichment plot with running ES, gene rank, NES=1.77, FDR=0.001
+  B. FerrDb ferroptosis gene set: enrichment plot, FDR<0.05
+  C. Top 20 Hallmark pathways (bar chart, FDR-ordered)
+  D. Permutation p-value distribution histogram (10,000 permutations)
+Verification: NES and FDR values match Results text; no anti-conservative p-values
+Status: [ ] Generated (Fig2A already exists, S2 panels need creation)
+
+S3. WGCNA Diagnostic Plots
+Data source: GSE193997 WGCNA (top 4,000 variable genes, β=3, signed network)
+Panels:
+  A. Scale-free topology fit (R²) vs soft-thresholding power (1-20)
+  B. Mean connectivity vs soft-thresholding power
+  C. Gene clustering dendrogram with module color assignment (12 modules)
+  D. Module-trait correlation heatmap (Pearson r, module eigengene × I/R trait)
+  E. Gene significance (GS) vs module membership (MM) scatter for key modules
+  F. Module eigengene expression across time points
+Verification: R²_scale-free > 0.9 at chosen β; key modules show significant I/R correlation
+Status: [x] Generated (WGCNA已跑完) / [ ] Figure assembled
+
+S4. snRNA-seq Quality Control
+Data source: GSE240848 (48,633 nuclei after QC, 9 cell types)
+Panels:
+  A. nUMI violin plot by cell type (pre-QC)
+  B. nGene violin plot by cell type (pre-QC)
+  C. Mitochondrial percentage violin plot by cell type
+  D. Doublet score distribution (per cell type)
+  E. UMAP colored by nUMI, nGene, mito% (post-QC)
+  F. Number of nuclei per cell type (bar chart, 48,633 total)
+Verification: >90% nuclei pass QC; mito% < 10% for non-cardiomyocyte populations; no dominant batch effect
+Status: [ ] Generated / [x] Pending
+
+S5. Marker Gene Dotplot for All 9 Cell Types
+Data source: GSE240848 snRNA-seq
+Panels:
+  A. Dotplot: 3-5 canonical markers per cell type × 9 cell types
+     Markers: Cardiomyocyte (Tnnt2, Myh7, Actc1), Fibroblast (Col1a1, Col1a2, Dcn),
+     Endothelial (Pecam1, Cdh5, Kdr), Macrophage (Cd68, Csf1r, Adgre1),
+     Neutrophil (S100a8, S100a9), T Cell (Cd3e, Cd3d), B Cell (Cd19, Cd79a),
+     Pericyte (Pdgfrb, Rgs5), Smooth Muscle Cell (Acta2, Myh11)
+  B. Cell-type proportion bar chart (per-sample if multiple samples)
+Verification: Each cell type has ≥2 markers with high dot intensity and percent expressed
+Status: [ ] Generated / [x] Pending
+
+S6. Complete CellChat Interaction Pathways
+Data source: GSE240848, CellChat analysis (all cell types, all pathways)
+Panels:
+  A. Circle plot: all significant cell-cell interactions (all 9 cell types)
+  B. Heatmap: outgoing signaling strength per cell type
+  C. Heatmap: incoming signaling strength per cell type
+  D. Selected pathway chord diagrams (SPP1, IGF, JAG1/NOTCH, TNF, etc.)
+  E. Comparison of information flow between sham and I/R (if available)
+Verification: SPP1-CD44 pathway is visually prominent; myeloid cells dominate outgoing signals
+Status: [ ] Generated / [x] Pending (CellChat已跑完, Figure需组装)
+
+S7. Cross-Platform mRNA-Protein Scatter Plots (Per-Dataset)
+Data source: PXD046631, PXD040135, PXD035154
+Panels:
+  A. PXD046631 scatter: log2(Prot FC) vs log2(RNA FC), n=2,308 genes, R=0.253
+  B. PXD040135 scatter: log2(Prot FC) vs log2(RNA FC), n genes with matched data
+  C. PXD035154 Pool 1 scatter: 2-day I/R, TMT
+  D. PXD035154 Pool 2 scatter: 2-week I/R, TMT
+  E. Directional concordance bar chart across all 3 datasets
+  F. Overlap of discordant genes across datasets
+Verification: R values consistent across platforms; FTH1 and TFRC highlighted in each panel
+Status: [ ] Partially generated (Fig3 = PXD046631 only) / S7 needs per-dataset panels
+
+S8. GSE57338 Full Differential Expression Results
+Data source: GSE57338 (177 HF vs 136 NF, GPL11532 Affymetrix)
+Panels:
+  A. Volcano plot: log2FC vs -log10(P), all 5,514 ortholog-mapped genes
+  B. Heatmap: top 50 DEGs (by P-value), HF vs NF
+  C. Core Nrf2 target gene bar chart: Hmox1, Slc7a11, Nqo1, Gclc, Nfe2l2 log2FC
+  D. GSEA for Nrf2-ARE gene set in chronic HF (if enrichment detected)
+Verification: Hmox1 log2FC = -0.38, Slc7a11 = -0.30; Nrf2 targets not enriched in chronic HF
+Status: [ ] Generated (direction_consistency.csv exists) / [ ] Figure pending
+
+S9. OGT-PIN Genes in WGCNA Modules
+Data source: OGT-PIN v2.0 (782 interactors) × WGCNA modules (12 modules, GSE193997)
+Panels:
+  A. Bar chart: OGT-PIN gene enrichment per WGCNA module (Fisher's exact test)
+  B. Heatmap: OGT-PIN genes × module membership + gene significance
+  C. Network diagram: top 50 OGT-PIN hub genes colored by module
+  D. RELA module membership and gene significance annotation
+Verification: OGT-PIN genes enriched in I/R-associated modules; RELA in significant module
+Status: [ ] Generated / [x] Pending
+
+S10. CellPhoneDB Full Results (LIANA Framework)
+Data source: GSE240848, LIANA/CellPhoneDB output
+Panels:
+  A. Dotplot: top 50 significant CellPhoneDB interactions
+  B. Heatmap: interaction strength by ligand-receptor pair × cell-type pair
+  C. Venn diagram: CellChat ∩ CellPhoneDB = 8 consensus pairs (Fig 5B variant)
+  D. Full CellPhoneDB myeloid→target interaction table (condensed heatmap)
+Verification: SPP1-CD44 among top CellPhoneDB interactions; 528 total significant pairs
+Status: [ ] Generated / [x] Pending
+
+S11. Boolean Network Robustness Analysis (Companion Paper Reference)
+Data source: 27-node Boolean network, synchronous update
+Panels:
+  A. Attractor landscape under wild-type initial conditions
+  B. Single-node knockout perturbation heatmap (27 nodes × 27 nodes)
+  C. Rule sensitivity: % attractor change per rule perturbation
+  D. Multi-threshold sensitivity: network behavior at 5 binarization thresholds
+  E. Async vs sync update comparison
+Note: Briefly referenced in Paper 1 main text; full analysis in companion paper (Paper 2)
+Status: [x] Generated (Boolean network已跑完, output_tables exist) / [ ] Figure assembled
+
+S12. Drug Repurposing PAINS Filtering Process (If Retained)
+Data source: Molecular docking + PAINS filter (RDKit)
+Panels:
+  A. PAINS category distribution (pie/bar chart)
+  B. Pre- vs post-PAINS compound count comparison
+  C. Top 10 non-PAINS compounds with docking scores
+  D. Chemical structure 2D representations of top candidates
+Note: May be moved entirely to companion Paper 2 per paper-splitting strategy
+Status: [x] Partially generated (PAINS tables exist) / Decision: move to Paper 2 or retain as brief S12
+
+================================================================================
+SUPPLEMENTARY TABLES (>=12)
+================================================================================
+
+Table S1. GSE193997 DESeq2 Full Results (I/R 6h vs Sham)
+Content: 6,556 DEGs with gene symbol, baseMean, log2FC, lfcSE, stat, pvalue, padj
+Format: Excel (.xlsx) + CSV
+Data: GSE193997 DESeq2 output
+Status: [x] Exists (GSE193997_DESeq2_Sham_vs_IR6h.csv)
+
+Table S2. GSE307385 DESeq2 Results (All Time Points vs Sham)
+Content: DEGs at each time point (0h, 1h, 6h, 24h vs Sham), Ogt/Oga expression dynamics
+Format: Excel (.xlsx) + CSV
+Data: GSE307385 DESeq2 output
+Status: [ ] Needs generation
+
+Table S3. GSEA Results — All Significantly Enriched Pathways
+Content: Pathway name, NES, FDR, leading edge genes for Nrf2-ARE custom, FerrDb, MSigDB Hallmark
+Format: Excel (.xlsx)
+Data: fgsea output
+Status: [ ] Needs generation
+
+Table S4. WGCNA Module Assignment and Hub Genes
+Content: Gene symbol, module color, module membership (kME), gene significance (GS), hub status (MM>0.8)
+Format: Excel (.xlsx) + CSV
+Data: WGCNA output
+Status: [ ] Needs generation
+
+Table S5. snRNA-seq Cell-Type Marker Genes and Proportions
+Content: Cell type, marker genes, number of nuclei, percentage of total, key DEGs per cluster
+Format: Excel (.xlsx)
+Data: GSE240848 Seurat/Scanpy output
+Status: [ ] Needs generation
+
+Table S6. CellChat Full Ligand-Receptor Interaction Results
+Content: 157 myeloid→target interactions: ligand, receptor, source, target, interaction score, P-value
+Format: Excel (.xlsx) + CSV
+Data: CellChat output
+Status: [x] Exists (SuppTable_CellChat_LR_interactions.csv)
+
+Table S7. CellPhoneDB Full Results (LIANA)
+Content: 528 myeloid→target interactions with ligand, receptor, source, target, score, P-value
+Format: Excel (.xlsx) + CSV
+Data: LIANA output
+Status: [x] Exists (LIANA_liana_res_full.csv)
+
+Table S8. CCC Consensus Interactions (CellChat ∩ CellPhoneDB)
+Content: 8 consensus pairs: ligand, receptor, source cell types, target cell types, both scores
+Format: Excel (.xlsx) + CSV
+Data: CCC_consensus_CellChat_CellPhoneDB.csv
+Status: [x] Exists
+
+Table S9. mRNA-Protein Concordance — PXD046631 Full Results
+Content: 2,308 genes: gene symbol, mRNA log2FC, protein log2FC, Studentized residual, concordance call
+Format: Excel (.xlsx) + CSV
+Data: mRNA_protein_residuals.csv
+Status: [x] Exists
+
+Table S10. mRNA-Protein Concordance — PXD040135 and PXD035154
+Content: Per-dataset concordance statistics, directional agreement %, R values
+Format: Excel (.xlsx)
+Data: PXD040135 and PXD035154 proteomics output
+Status: [x] Partially exists (Table_PXD035154/040135_Concordance.csv)
+
+Table S11. OGT-PIN × DEG Overlap (Fisher's Exact Test)
+Content: 381 overlapping genes with OGT-PIN annotation, DEG direction, functional category
+Format: Excel (.xlsx) + CSV
+Data: step3_ogt_enrichment.csv
+Status: [x] Exists
+
+Table S12. GSE57338 Directional Consistency Full Results
+Content: 5,514 ortholog-mapped genes with mouse log2FC, human log2FC, direction agreement call
+Format: Excel (.xlsx) + CSV
+Data: GSE57338_direction_consistency.csv
+Status: [x] Exists
+
+Table S13. GTEx v8 Core Gene Expression Across Tissues
+Content: OGT, NFE2L2, HMOX1, SLC7A11, BACH1 median TPM across 54 GTEx tissues
+Format: Excel (.xlsx)
+Data: GTEx_core_genes_LV.json
+Status: [x] Exists (JSON, needs Excel conversion)
+
+Table S14. Dataset Summary and Accession Numbers
+Content: Dataset name, accession, species, platform, sample sizes, time points, reference PMID
+Format: Excel (.xlsx)
+Data: config.json + manual curation
+Status: [ ] Needs generation
+
+Table S15. Key Resources Table (Cell Reports Format)
+Content: Reagent/Resource, Source, Identifier (RRID where available) for all software, databases, antibodies
+Format: Excel (.xlsx) — formatted per Cell Reports STAR Methods Key Resources Table template
+Data: Manual curation from Methods
+Status: [ ] Needs generation
+
+================================================================================
+PRIORITY ORDER (for generation)
+================================================================================
+Priority 1 (Essential for submission): S1, S4, S5, S6, Table S2, S3, S4, S14, S15
+Priority 2 (Strongly recommended): S2, S3, S7, S8, S9, S10
+Priority 3 (Optional / Paper 2 overlap): S11, S12, Table S5
+
+================================================================================
+NOTES
+================================================================================
+- All supplementary figures at 300 dpi minimum, PDF format
+- Figure legends: ≤150 words each, self-contained (explain abbreviations)
+- Tables: Excel (.xlsx) with separate tabs for multi-part tables
+- Naming: FigS1_xxx.pdf, TableS1_xxx.xlsx
+- All GEO/PRIDE accessions must be cited in relevant table legends

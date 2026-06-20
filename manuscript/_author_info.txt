@@ -1,0 +1,34 @@
+Author Information for Cell Reports Submission
+================================================================================
+
+Corresponding Author:
+Guoxin Zhang
+Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China
+Email: zhangguoxin@fjmu.edu.cn
+
+ORCID: [To be added by author]
+
+Running Title (¡Ü50 characters):
+Ogt-Nrf2-ferroptosis axis in acute cardiac I/R
+
+Keywords (6-8):
+O-GlcNAcylation, Nrf2, ferroptosis, myocardial ischemia-reperfusion,
+single-nucleus RNA-seq, SPP1-CD44, RELA/NF-kB, multi-omics integration
+
+Declaration of Interests:
+The authors declare no competing interests.
+
+Author Contributions:
+G.Z. conceived the study, performed all computational analyses, interpreted
+results, and wrote the manuscript.
+
+Data and Code Availability:
+All original code has been deposited at GitHub (URL to be added).
+All sequencing and proteomics data are publicly available at GEO and PRIDE
+with accession numbers listed in STAR Methods.
+
+Acknowledgments:
+The authors thank the GTEx Consortium for providing public access to
+genotype-tissue expression data, and the depositors of GSE193997,
+GSE307385, GSE240848, GSE57338, PXD046631, PXD040135, and PXD035154
+for making their data publicly available.

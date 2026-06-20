@@ -1,0 +1,359 @@
+compound,best_pvalue,best_combined_score,n_entries,databases,nrf2_status,nrf2_confidence,is_pains,pains_category,auc_class
+ljp006 skbr3 24h-withaferin-a-333,1.11890113805608e-23,513.383310463214,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 24h-withaferin-a-333,1.4176032303236e-23,528.00437070248,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 24h-celastrol-111,9.48836704469395e-23,443.831525679137,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 3h-withaferin-a-333,2.28786709849929e-19,492.868185439651,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 24h-celastrol-333,3.3762616953696298e-18,464.162580508584,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 24h-withaferin-a-333,3.47248907960451e-18,410.068312747743,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 hcc515 24h-celastrol-10,2.82153320013895e-17,491.055207922381,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 ht29 24h-celastrol-10,2.22759708132557e-16,450.089914711399,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 3h-withaferin-a-333,3.06985418858637e-16,476.834880920282,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 bt20 24h-withaferin-a-333,8.762707064833201e-16,476.549744914125,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 3h-celastrol-111,2.9980148138537803e-15,673.87072460363,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 ht29 24h-withaferin-a-10,5.43034191392545e-15,254.784438453302,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 hcc515 24h-withaferin-a-10,1.5061158405376902e-14,247.66565883695,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+14-chrysenequinone,2.02674076891987e-14,307.291244988703,5,DSigDB,unknown,,True,quinone,excluded
+ljp005 bt20 3h-withaferin-a-333,5.72477941033056e-14,390.239043911271,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 24h-celastrol-333,7.26690944559734e-14,242.887965551394,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 24h-withaferin-a-333,1.4565307994171998e-13,242.717965945211,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp006 lncap 24h-withaferin-a-10,1.81051151069741e-13,224.862571446168,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+genistein,2.07291483610186e-13,83.1448741374712,2,DSigDB,activator,medium,True,literature_classified,positive
+withaferin a,3.52816603332618e-13,358.92932462324,8,DSigDB,activator,medium,True,literature_classified,positive
+ljp005 mdamb231 3h-withaferin-a-10,1.32119803819532e-12,390.921976810804,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 3h-withaferin-a-10,1.7402362987865098e-12,378.552613759875,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 24h-celastrol-333,2.82028403586868e-12,209.997252329724,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 ht29 24h-withaferin-a-10,9.12195455803398e-12,139.865710251996,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-withaferin-a-10,9.4106271662741e-12,252.323120771833,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 ht29 24h-withaferin-a-333,1.30562705539365e-11,267.879910666851,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 24h-withaferin-a-10,1.3135095849231598e-11,298.275966703659,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-celastrol-333,1.60958139459683e-11,261.542575034442,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp006 skbr3 3h-celastrol-333,1.8439400207364498e-11,215.369232008042,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 hcc515 24h-withaferin-a-10,3.45049175980439e-11,140.823284838554,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 24h-celastrol-111,4.3481465841234303e-10,216.005468178339,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+curcumin,5.20023837611775e-10,72.4202260460757,2,DSigDB,activator,high,True,literature_classified,positive
+celastrol,7.13992050294183e-10,118.31753142159,4,DSigDB,activator,medium,True,literature_classified,positive
+ljp006 lncap 24h-celastrol-333,1.2447838656884e-09,107.933379391208,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 24h-withaferin-a-111,1.9312389995991302e-09,177.337068972173,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 ht29 24h-withaferin-a-333,3.5905575942188e-09,181.486277725975,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+quercetin,4.05444682338425e-09,100.926186130789,9,DSigDB,activator,high,True,literature_classified,positive
+ljp005 mcf10a 24h-withaferin-a-10,4.42043411747998e-09,115.915004818082,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 hcc515 24h-celastrol-333,6.0584536527723606e-09,127.915291738899,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 mcf10a 3h-withaferin-a-10,9.13176356280489e-09,294.295182709165,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 24h-withaferin-a-111,9.81085152824994e-09,130.01457714405,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+gossypol,1.63971724952207e-08,186.423088115472,7,DSigDB,unknown,,True,literature_classified,excluded
+ljp005 hcc515 24h-withaferin-a-333,1.69531364546074e-08,145.149802762541,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+resveratrol,1.8730939126211e-08,154.649390478532,9,DSigDB,activator,high,True,literature_classified,positive
+ljp006 mcf10a 3h-withaferin-a-333,3.67791607529511e-08,129.450859375155,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 3h-withaferin-a-111,3.76904337739388e-08,226.406425080832,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 24h-celastrol-111,8.14635721893202e-08,90.507823791914,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 hcc515 24h-withaferin-a-004,8.88502416321575e-08,103.668096402607,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 24h-withaferin-a-10,9.3290599722724e-08,95.1983361702467,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 3h-celastrol-10,1.00862848268565e-07,188.227856173398,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 3h-celastrol-111,1.06730762530707e-07,137.061044115819,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 3h-withaferin-a-10,1.15141181508473e-07,155.381992271437,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 mdamb231 24h-withaferin-a-333,1.36830057995899e-07,117.103703611369,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 3h-withaferin-a-333,1.58440303899554e-07,172.769348629989,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+myricetin,3.42109887578501e-07,316.878678321147,3,DSigDB,activator,medium,True,literature_classified,positive
+ljp005 bt20 3h-withaferin-a-111,5.20268596293446e-07,208.296848470344,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 24h-withaferin-a-111,8.28228009009809e-07,73.6519546538686,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 3h-withaferin-a-10,1.82551481342843e-06,107.046512863423,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 3h-celastrol-333,1.87434803556572e-06,154.649390478532,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 24h-withaferin-a-10,1.91421639148362e-06,82.7460025260297,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 hcc515 24h-withaferin-a-333,2.46921683661184e-06,88.2045779206736,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+luteolin,2.50959771189523e-06,57.7046817992693,9,DSigDB,activator,medium,True,literature_classified,positive
+ljp005 mcf10a 24h-withaferin-a-333,3.20747499987954e-06,55.4349855210423,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 mcf10a 3h-withaferin-a-111,3.39590783357692e-06,94.2991502068234,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 mdamb231 24h-withaferin-a-10,3.64628241863628e-06,132.140646727293,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 3h-celastrol-333,7.39927777389527e-06,58.8159214075365,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 ht29 24h-withaferin-a-004,7.50232295155678e-06,48.0608857139608,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-withaferin-a-111,9.1422952517105e-06,133.688770968623,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp005 mcf10a 3h-withaferin-a-333,9.46270947475204e-06,87.7634576874844,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 skbr3 24h-withaferin-a-037,1.14516298645729e-05,125.84349881546,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 3h-withaferin-a-111,1.37846826377029e-05,95.7279596611983,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+pterostilbene,1.46868731257614e-05,79.3504605369504,1,DSigDB,activator,medium,True,resveratrol_analog,positive
+ljp006 mdamb231 3h-celastrol-333,1.63251600380474e-05,91.79537592434,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 3h-celastrol-111,1.63251600380474e-05,91.79537592434,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 24h-withaferin-a-10,1.68510349458971e-05,67.0681315530052,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 3h-withaferin-a-10,1.89765254934026e-05,65.3347033459976,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 24h-withaferin-a-333,2.39513646595722e-05,50.7555772058437,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 bt20 24h-withaferin-a-111,2.64216225240791e-05,81.3498705512258,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 mdamb231 3h-withaferin-a-333,4.12887921692995e-05,72.5819487159255,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 3h-celastrol-037,4.61782579669061e-05,163.761559589252,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp006 hcc515 24h-withaferin-a-111,5.33622740923215e-05,82.4064060919371,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 3h-withaferin-a-004,8.64552625259768e-05,71.823327224046,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp006 ht29 24h-celastrol-333,0.0001346170677064,63.1508634386722,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+alpha-hexylcinnamaldehyde,0.0001477886591814,77.2589066065997,1,DSigDB,activator,medium,False,,positive
+p-benzoquinone,0.000154806816276,60.6036187628074,2,DSigDB,unknown,,True,quinone,excluded
+ljp005 skbr3 3h-withaferin-a-111,0.0002218223380473,91.9833968660522,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-withaferin-a-333,0.0002305010738193,53.8092061308962,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+cinnamaldehyde,0.0002683927468064,27.9408939863968,2,DSigDB,activator,medium,False,,positive
+ljp006 mcf10a 24h-celastrol-333,0.0002847126434837,27.5575873128604,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+catechol-40 mgkg in saline-rat-liver-3d-up,0.000348913574405,21.2532604984043,2,DrugMatrix,unknown,,True,catechol,excluded
+hydroquinone,0.0004015205496656,25.3931706353369,2,DSigDB,activator,high,True,quinone,positive
+ljp006 skbr3 3h-withaferin-a-037,0.0004076368481012,73.1294864944167,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-celastrol-012,0.0004417830746821,53.7159488866312,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 bt20 24h-withaferin-a-10,0.0004525491256536,33.4254320467385,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 bt20 24h-celastrol-10,0.0006708698952104,29.8861301405315,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mcf10a 24h-withaferin-a-333,0.0007108085378581,23.3082732678998,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 24h-celastrol-10,0.0008437696124754,42.8956020819176,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+diphenylcyclopropenone,0.0008936428005945,78.7993682152863,2,DSigDB,unknown,,True,ene_one,excluded
+ljp006 mcf10a 3h-celastrol-037,0.0009500731070812,52.649189338481,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+catechol,0.0009501429461317,41.1194809674274,1,DSigDB,unknown,,True,catechol,excluded
+ljp006 skbr3 24h-celastrol-10,0.0009661680968754,34.2250523518817,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-celastrol-111,0.0009661680968754,34.2250523518817,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 hcc515 24h-withaferin-a-111,0.0010665340799661,39.4483777413509,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 3h-celastrol-10,0.001902683906561,39.7404210021827,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+garcinol,0.0019737509972925,54.359488910396,1,DSigDB,unknown,,True,literature_classified,excluded
+ljp006 skbr3 3h-celastrol-037,0.0019737509972925,54.359488910396,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 skbr3 3h-withaferin-a-111,0.0024318035074588,35.8660086223893,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 mdamb231 3h-celastrol-111,0.0024347423340301,29.0145712479756,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp006 lncap 24h-celastrol-111,0.0025478321504701,19.8417191689604,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+--epigallocatechin gallate boss,0.0027130615693415,15.3004748944645,2,DSigDB,activator,medium,True,literature_classified,positive
+ljp005 skbr3 3h-withaferin-a-037,0.0027562017640149,46.2956473774131,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+genistein boss,0.0032243402849038,17.0491023805454,2,DSigDB,activator,medium,True,literature_classified,positive
+cpc006 hcc515 6h-rottlerin ncgc00025228-11-968,0.0036844855632525,65.9243293119077,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+resveratrol boss,0.0044979200753662,13.124789129995,2,DSigDB,activator,high,True,literature_classified,positive
+baicalein ttd 00002293,0.0046555630214747,27.0654193983941,1,DSigDB,activator,medium,True,literature_classified,positive
+ljp005 mcf10a 24h-withaferin-a-111,0.0056420272800515,24.8211881557281,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+catechol boss,0.0073850048718756,21.9228551082206,1,DSigDB,unknown,,True,catechol,excluded
+ljp006 mdamb231 24h-withaferin-a-111,0.0088949845958909,25.5693198512047,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+apigenin,0.0105566373938855,10.8868932456593,10,DSigDB,activator,medium,True,literature_classified,positive
+ljp006 skbr3 24h-celastrol-012,0.0110688224961252,18.0581259865608,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+cpc001 hcc515 6h-rottlerin ncgc00025228-11-100,0.0128402518592045,16.7763336190713,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+genistein-375 mgkg in corn oil-rat-liver-5d-dn,0.0136543771328467,8.71107697062952,2,DrugMatrix,activator,medium,True,literature_classified,positive
+eplerenone boss,0.0147779877460116,27.5349292552479,2,DSigDB,unknown,,True,ene_one,excluded
+kaempferol,0.017110264964499,11.3195503331581,2,DSigDB,activator,medium,True,literature_classified,positive
+zearalenone,0.0176360564487475,9.15255833943706,2,DSigDB,unknown,,True,ene_one,excluded
+ljp005 mdamb231 24h-withaferin-a-111,0.0189682893290557,23.3112496370424,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+ljp006 mcf10a 24h-celastrol-111,0.0201368734408945,9.11165112794459,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+sulforaphane,0.0214740859359237,10.1710058519744,2,DSigDB,activator,high,False,,positive
+emodin,0.0224314448482286,9.95922501220932,2,DSigDB,unknown,,True,literature_classified,excluded
+--epigallocatechin gallate,0.0249248152173261,4.87066283362507,2,DSigDB,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-liver-3d-up,0.0263851660225143,6.91080675660646,2,DrugMatrix,unknown,,True,catechol,excluded
+ljp006 skbr3 3h-celastrol-10,0.0275554281538663,16.1817406984314,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+curcumin boss,0.0287913105638772,6.85620042614287,2,DSigDB,activator,high,True,literature_classified,positive
+cpc018 ht29 6h-rottlerin ncgc00025228-11-100,0.0295466799670866,30.6305621988997,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 nomo1 6h-curcumin-480,0.0323918731586647,10.2013560628029,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 hcc15 6h-curcumin-480,0.0336650616831555,8.11679579630087,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+baicalein,0.0341219634999699,9.89613443059452,1,DSigDB,activator,medium,True,literature_classified,positive
+rottlerin,0.0377512904292007,9.32078024277078,1,DSigDB,unknown,,True,literature_classified,excluded
+cpc006 wsudlcl2 6h-rottlerin ncgc00025228-11-968,0.0456947466310167,8.29490680765938,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 cov644 6h-curcumin-480,0.046356495403006,7.38550569843155,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+acenaphthenequinone,0.0465414020768535,20.0059385716675,1,DSigDB,unknown,,True,quinone,excluded
+fisetin,0.0511841983690293,8.96491397698322,4,DSigDB,activator,medium,True,literature_classified,positive
+cpc006 h1299 6h-curcumin-480,0.052257714740366,7.61978361867696,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+ljp006 mcf10a 24h-withaferin-a-111,0.0539001625581647,6.74615639299187,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+quercetin ttd 00010442,0.0540061145001182,8.63650977918844,2,DSigDB,activator,high,True,literature_classified,positive
+2-aminoanthraquinone,0.0594054107730516,15.7820387732216,1,DSigDB,unknown,,True,quinone,excluded
+cpc006 hcc515 6h-curcumin-480,0.0598975774197526,8.02639196513513,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+emodin ttd 00007826,0.0603798861036469,9.99557360986855,2,DSigDB,unknown,,True,literature_classified,excluded
+ljp008 hcc515 24h-resveratrol-10,0.0603798861036469,9.99557360986855,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+emodin boss,0.0693461855071215,7.21409612293484,2,DSigDB,unknown,,True,literature_classified,excluded
+cpc006 tyknu 6h-curcumin-480,0.0723034445754381,6.133185449016,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+ljp006 skbr3 24h-celastrol-037,0.0723034445754381,6.133185449016,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+myricetin ttd 00009430,0.0726562546233285,6.96755182753947,2,DSigDB,activator,medium,True,literature_classified,positive
+cpc018 asc 24h-rottlerin ncgc00025228-11-100,0.0726562546233285,6.96755182753947,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 sklu1 6h-curcumin-480,0.0750673996497152,5.97416486387327,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+ljp006 bt20 24h-withaferin-a-10,0.0760453608819172,6.73194988082738,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+ljp005 bt20 24h-withaferin-a-037,0.0806361709961198,11.5885784207271,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+genistein-20 mgkg in corn oil-rat-liver-5d-dn,0.0834886370809548,3.91066799795362,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc006 sklu1 6h---gallocatechin gallate-888,0.0866863611165333,5.38744741693276,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+apigenin boss,0.0959813981769186,4.99391807064574,2,DSigDB,activator,medium,True,literature_classified,positive
+rhein,0.0970577196027335,6.68211220371096,1,DSigDB,unknown,,True,literature_classified,excluded
+resveratrol ttd 00010551,0.0970577196027335,6.68211220371096,1,DSigDB,activator,high,True,literature_classified,positive
+cpc018 skb 24h-rottlerin-100,0.0979897660237652,5.51601755588627,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+cpc006 mdst8 6h-curcumin-480,0.0979897660237652,5.51601755588627,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+quercetin dihydrate boss,0.098042486453594,4.07596026439811,2,DSigDB,activator,high,True,literature_classified,positive
+cpc006 u937 6h-rottlerin ncgc00025228-11-968,0.112542036142158,4.41366923383757,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+cpc018 npc 24h-quercetin-100,0.11407613801902,4.85949040239199,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+apigenin ttd 00002101,0.118072730031338,5.5754154349699,2,DSigDB,activator,medium,True,literature_classified,positive
+resveratrol-13c6 ttd 00010554,0.118072730031338,5.5754154349699,2,DSigDB,activator,high,True,literature_classified,positive
+catechol-40 mgkg in saline-rat-bone marrow-1d-up,0.118837734069395,3.26528997451458,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-bone marrow-025d-up,0.120860170839462,3.22780544340065,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 ncih596 6h-rottlerin ncgc00025228-11-968,0.12252803470737,4.56848597536373,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+myricetin boss,0.12252803470737,4.56848597536373,2,DSigDB,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-bone marrow-1d-up,0.122901866786119,3.19077529008426,2,DrugMatrix,unknown,,True,catechol,excluded
+ljp006 bt20 3h-celastrol-10,0.128489113320679,6.9783608319346,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+cpc006 ht115 6h-curcumin-480,0.129160251906065,5.11338011028171,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 ht115 6h-curcumin-1357,0.134837443223168,4.90136914425775,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 sw620 6h-rottlerin ncgc00025228-11-968,0.13568722199834,4.17199472554433,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc002 vcap 6h-quercetin-100,0.136999934473736,6.47823002297217,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+14-deoxy-1112-didehydroandrographolide,0.140741150521065,3.26251062982284,2,DSigDB,activator,medium,False,,positive
+cpc006 ncih1694 6h-curcumin-480,0.141653339558862,3.64646985941006,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 ht29 6h-curcumin-480,0.142485547526067,3.39478068087041,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+catechol ttd 00002709,0.145630505863275,6.02765374262903,1,DSigDB,unknown,,True,catechol,excluded
+cpc011 vcap 24h-idebenone-100,0.162430580311551,11.8338122981695,1,LINCS_L1000_Chem_Pert_up,unknown,,True,ene_one,excluded
+cpc001 hcc515 24h-rottlerin ncgc00025228-11-100,0.162925089814487,2.64729320332608,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc002 vcap 24h-isorotenone-100,0.163206293839153,5.25055649512876,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,ene_one,excluded
+genistein-375 mgkg in corn oil-rat-liver-3d-dn,0.165465954957687,2.61485821262734,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc006 pl21 6h-rottlerin ncgc00025228-11-968,0.168439758865601,3.4015437715234,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+--epigallocatechin gallate ttd 00000021,0.172130407352003,4.91409073555778,2,DSigDB,activator,medium,True,literature_classified,positive
+catechol-40 mgkg in saline-rat-bone marrow-3d-up,0.175819271983871,2.48923955984698,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 vcap 24h-rottlerin ncgc00025228-11-968,0.176757758070929,4.13680372141097,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc018 phh 24h-isorotenone-100,0.177843462825826,2.96621867042517,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,ene_one,excluded
+cpc006 jhuem2 6h-curcumin-480,0.18301812654553,3.55912823517899,1,LINCS_L1000_Chem_Pert_down,activator,high,True,literature_classified,positive
+cpc006 wsudlcl2 6h-curcumin-480,0.188289535317111,3.03985376762829,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc018 asc 24h-piceatannol-100,0.19020173797121,4.32580652354591,1,LINCS_L1000_Chem_Pert_up,unknown,,True,resveratrol_analog,excluded
+cpc006 sw620 6h-curcumin-480,0.198483676369436,2.87666274502714,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+ljp005 skbr3 24h-withaferin-a-012,0.199330521987762,4.06781012742253,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+genistein-375 mgkg in corn oil-rat-liver-1d-dn,0.205779144609039,2.17529458039422,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc006 thp1 6h-curcumin-480,0.21618464076612,2.32173715642128,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+piceatannol ttd 00010229,0.217731313500066,3.61169704735681,2,DSigDB,unknown,,True,resveratrol_analog,excluded
+luteolin boss,0.219347915246863,2.58097845273361,1,DSigDB,activator,medium,True,literature_classified,positive
+naringenin boss,0.226987281492738,3.40956507263732,1,DSigDB,activator,medium,True,literature_classified,positive
+rhein ttd 00010611,0.226987281492738,3.40956507263732,1,DSigDB,unknown,,True,literature_classified,excluded
+cpc006 snuc5 6h-curcumin-480,0.230727987870521,2.27771983217631,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc017 skb 24h-resveratrol-100,0.241602594253926,2.56368930468875,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+hesperetin,0.24298953748732,1.93583943260755,2,DSigDB,activator,medium,True,literature_classified,positive
+p-benzoquinone ttd 00009995,0.243131555176902,5.52341367308276,1,DSigDB,unknown,,True,quinone,excluded
+idebenone-2500 mgkg in cmc-rat-liver-5d-dn,0.243709898317584,1.85652213660805,2,DrugMatrix,unknown,,True,ene_one,excluded
+--epicatechin boss,0.248305183282385,2.47607842448759,2,DSigDB,unknown,,True,literature_classified,excluded
+12-naphthoquinone,0.254888877530838,2.88771431030975,1,DSigDB,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-liver-5d-dn,0.261686871717708,1.75675812179375,2,DrugMatrix,unknown,,True,catechol,excluded
+thymoquinone,0.262063651623056,4.75479001926925,1,DSigDB,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-bone marrow-3d-dn,0.268211337867512,1.68460189367142,1,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 lovo 6h---gallocatechin gallate-888,0.273534328310834,2.59786243744674,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 efo27 6h---gallocatechin gallate-888,0.273704243592449,1.9872017284075,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+idebenone-2500 mgkg in cmc-rat-liver-3d-dn,0.274930687801301,1.66692326862803,2,DrugMatrix,unknown,,True,ene_one,excluded
+cpc006 hcc515 24h-rottlerin ncgc00025228-11-968,0.27698871252839,2.0898557685727,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+910-phenanthrenequinone,0.279270379286915,1.93723188673398,2,DSigDB,unknown,,True,quinone,excluded
+propafenone,0.280523108822249,4.13680372141097,1,DSigDB,unknown,,True,ene_one,excluded
+cpc004 vcap 24h-benzopurpurin b-100,0.280523108822249,4.13680372141097,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+acenaphthenequinone ttd 00001558,0.280523108822249,4.13680372141097,1,DSigDB,unknown,,True,quinone,excluded
+tert-butylhydroquinone,0.282851933336949,2.46733989060186,2,DSigDB,activator,high,True,quinone,positive
+cpc018 npc 24h-catechin pentabenzoate-100,0.282851933336949,2.46733989060186,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+cpc006 sngm 6h-curcumin-480,0.289012451787894,2.02177186544978,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+andrographolide,0.292158629887536,2.34533151580441,1,DSigDB,activator,medium,False,,positive
+cpc006 sw480 6h-curcumin-480,0.295854276756101,1.9563888905878,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 wsudlcl2 6h---gallocatechin gallate-888,0.296069670268456,1.79592288083775,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+10z13e15e-heptadecatrienylhydroquinone,0.29852170306951,3.63158326632519,1,DSigDB,unknown,,True,quinone,excluded
+cpc015 npc 24h-eplerenone-100,0.301449149037716,2.2311280651298,1,LINCS_L1000_Chem_Pert_down,unknown,,True,ene_one,excluded
+catechol-195 mgkg in saline-rat-liver-025d-up,0.301968848848752,1.50119162383527,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc010 vcap 24h-resveratrol-100,0.316070917849597,3.21267591828761,1,LINCS_L1000_Chem_Pert_down,activator,high,True,literature_classified,positive
+rotenone boss,0.316427998210308,1.77515709283193,2,DSigDB,unknown,,True,ene_one,excluded
+cpc006 ht29 24h-curcumin-480,0.324513420524519,1.42663330130049,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+1-amino-4-hydroxyanthraquinone,0.329174931258941,1.92929351371857,2,DSigDB,unknown,,True,quinone,excluded
+cpc006 lovo 6h-curcumin-480,0.329995239010177,1.54774126451674,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc011 vcap 6h-diphenylcyclopropenone-100,0.333181951007303,2.86109706193191,1,LINCS_L1000_Chem_Pert_down,unknown,,True,ene_one,excluded
+idebenone,0.333181951007303,2.86109706193191,2,DSigDB,unknown,,True,ene_one,excluded
+catechol-195 mgkg in saline-rat-bone marrow-3d-up,0.33568100272052,1.30619304265828,2,DrugMatrix,unknown,,True,catechol,excluded
+genistein-20 mgkg in corn oil-rat-liver-025d-dn,0.348244264262523,1.27922389683217,2,DrugMatrix,activator,medium,True,literature_classified,positive
+curcumin ii,0.349865722091683,2.56290215021757,1,DSigDB,activator,high,True,literature_classified,positive
+cpc006 cl34 6h-curcumin-480,0.350740811386594,1.51616640142372,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 ncih1836 6h-curcumin-480,0.352737379450205,1.40425041341103,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+curcumin ttd 00007338,0.357587477680226,1.46996545234063,2,DSigDB,activator,high,True,literature_classified,positive
+3-methoxycatechol,0.366132878780452,2.30764101311785,1,DSigDB,unknown,,True,catechol,excluded
+genistein-20 mgkg in corn oil-rat-liver-3d-dn,0.367107093188881,1.19184084561016,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc006 rmugs 6h-curcumin-480,0.374642968691948,1.53378761573286,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+cpc006 rko 6h-curcumin-480,0.384855318900799,1.30116924459534,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 vcap 6h-curcumin-480,0.397397980098802,1.09824310994656,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc001 vcap 24h-rottlerin ncgc00025228-11-100,0.398392581439426,1.22543448444037,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+910-phenanthrenequinone ttd 00001360,0.398392581439426,1.22543448444037,2,DSigDB,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-kidney-025d-up,0.405046899114155,1.03495921537967,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc017 npc 24h-piceatannol-100,0.405131081907041,1.18952169184363,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,resveratrol_analog,excluded
+catechol-195 mgkg in saline-rat-spleen-1d-up,0.407412193938649,1.01553612666479,1,DrugMatrix,unknown,,True,catechol,excluded
+2-methoxy-14-naphthoquinone ttd 00000605,0.412537208297311,1.72827199315345,1,DSigDB,unknown,,True,quinone,excluded
+dihydrorotenone,0.412537208297311,1.72827199315345,1,DSigDB,unknown,,True,ene_one,excluded
+fisetin ttd 00008038,0.412537208297311,1.72827199315345,1,DSigDB,activator,medium,True,literature_classified,positive
+cpc006 ags 6h---gallocatechin gallate-888,0.418804759360938,1.23577686918817,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc004 hcc515 24h-rottlerin-100,0.42630173637085,1.0324998302172,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+genistein-20 mgkg in corn oil-rat-liver-1d-up,0.43233889020912,0.927159456646755,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc006 hcc515 24h-curcumin-480,0.43746801455021,0.985801120143398,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 ncih2073 6h-curcumin-480,0.458116642383454,0.942557946643732,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+14-naphthoquinone,0.46917820220315,1.2307033700543,1,DSigDB,unknown,,True,quinone,excluded
+idebenone-2500 mgkg in cmc-rat-liver-1d-up,0.473078140917831,0.803388076897979,2,DrugMatrix,unknown,,True,ene_one,excluded
+24-dihydroxybenzophenone,0.482465327248286,1.13781804905569,2,DSigDB,unknown,,True,ene_one,excluded
+catechol-195 mgkg in saline-rat-liver-5d-up,0.484276929179285,0.770213995850995,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-liver-025d-up,0.495413994561001,0.738411110571767,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc002 vcap 24h-quercetin-100,0.495420506796577,1.05422630842278,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+kaempferol boss,0.509867874871167,0.796568908666709,2,DSigDB,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-bone marrow-5d-dn,0.513818260966913,0.688293371251742,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 u937 6h-curcumin-480,0.527428740816263,0.693375105426946,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 hct116 6h-curcumin-480,0.533486253505625,0.674715711944056,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+idebenone-2500 mgkg in cmc-rat-liver-025d-dn,0.549415299180926,0.601133762751826,2,DrugMatrix,unknown,,True,ene_one,excluded
+catechol-195 mgkg in saline-rat-spleen-1d-dn,0.553214465627444,0.592009530532249,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 sw948 6h-curcumin-480,0.555454561130354,0.637162620606239,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+genistein ttd 00008196,0.555499800686032,0.739903843934916,2,DSigDB,activator,medium,True,literature_classified,positive
+cpc018 phh 24h-apigenin triacetate-100,0.566630083600046,0.692558248164881,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,medium,True,literature_classified,positive
+kaempferol ttd 00008767,0.577482206673572,0.649110012383664,1,DSigDB,activator,medium,True,literature_classified,positive
+cpc006 snuc4 6h-curcumin-480,0.597955049270891,0.51423969630012,1,LINCS_L1000_Chem_Pert_down,activator,high,True,literature_classified,positive
+cpc006 efo27 6h-curcumin-480,0.597955049270891,0.51423969630012,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 sw620 6h---gallocatechin gallate-888,0.608438137736289,0.538348014158315,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+catechol-195 mgkg in saline-rat-liver-1d-dn,0.608817712523948,0.469801455478273,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 ags 6h-curcumin-480,0.624063425177748,0.44114491324386,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 ov7 6h-curcumin-480,0.624552652353925,0.447665491409703,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 vcap 24h-curcumin-480,0.626670214741861,0.433616606872964,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 vcap 6h-rottlerin ncgc00025228-11-968,0.627807298815539,0.477797138054693,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+cpc014 ht29 6h-genistein-100,0.630985542929506,0.432621628396899,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+catechol-40 mgkg in saline-rat-spleen-025d-dn,0.638816295588753,0.410784596753787,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-liver-1d-up,0.64118570962266,0.40846300608798,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-bone marrow-3d-dn,0.646099264012069,0.397236094155594,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc002 hcc515 6h-quercetin-100,0.646220154118645,0.425677786971883,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+hydroquinone-800 mgkg in cmc-rat-kidney-3d-dn,0.646491086087182,0.397727232360124,2,DrugMatrix,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-kidney-3d-up,0.646491086087182,0.397727232360124,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc018 skb 24h-rottlerin ncgc00025228-11-100,0.649768200720319,0.390872516921203,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+cpc018 npc 24h-piceatannol-100,0.649768200720319,0.390872516921203,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,resveratrol_analog,excluded
+cpc004 hcc515 24h-epicatechin monogallate-100,0.649768200720319,0.402318473615501,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 pl21 6h-curcumin-480,0.649768200720319,0.390872516921203,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+genistein-375 mgkg in corn oil-rat-liver-025d-up,0.653177858976839,0.385724125496848,2,DrugMatrix,activator,medium,True,literature_classified,positive
+purpurin,0.655082785590976,0.402318473615501,1,DSigDB,unknown,,True,literature_classified,excluded
+genistein-375 mgkg in corn oil-rat-liver-5d-up,0.669562410232201,0.357257456228365,2,DrugMatrix,activator,medium,True,literature_classified,positive
+hydroquinone-800 mgkg in cmc-rat-kidney-1d-up,0.670881695108291,0.353252173866713,2,DrugMatrix,unknown,,True,quinone,excluded
+luteolin ttd 00009051,0.672148813196935,0.360245593083302,1,DSigDB,activator,medium,True,literature_classified,positive
+cpc006 efo27 6h-rottlerin ncgc00025228-11-968,0.679373909625745,0.331135601680701,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+catechol-40 mgkg in saline-rat-liver-1d-dn,0.681085157892174,0.333842598484488,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-liver-3d-dn,0.682321694876431,0.33598236639859,2,DrugMatrix,unknown,,True,catechol,excluded
+idebenone-2500 mgkg in cmc-rat-liver-3d-up,0.685462423504247,0.330861245759857,2,DrugMatrix,unknown,,True,ene_one,excluded
+catechol-40 mgkg in saline-rat-liver-1d-up,0.712810967332862,0.290202296226078,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 skmel28 6h---gallocatechin gallate-888,0.717355997442551,0.264118333470603,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+hydroquinone-800 mgkg in cmc-rat-kidney-1d-dn,0.72159184416246,0.275068273210041,2,DrugMatrix,unknown,,True,quinone,excluded
+cpc004 hcc515 6h-benzopurpurin b-100,0.732390200801018,0.238014556949901,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+cpc006 ncih508 6h-curcumin-480,0.732390200801018,0.238014556949901,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+cpc006 t3m10 6h-curcumin-480,0.732390200801018,0.238014556949901,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+cpc006 thp1 6h-rottlerin ncgc00025228-11-968,0.732440961906838,0.240181155997447,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+genistein-20 mgkg in corn oil-rat-liver-025d-up,0.732987602640895,0.258602030290882,2,DrugMatrix,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-bone marrow-5d-up,0.735390909432749,0.252584391153057,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc018 npc 24h-rottlerin ncgc00025228-11-100,0.745637697197292,0.215827696863602,1,LINCS_L1000_Chem_Pert_down,unknown,,True,literature_classified,excluded
+catechol-40 mgkg in saline-rat-spleen-025d-up,0.746773582409611,0.239366096936476,1,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-kidney-3d-dn,0.747151135312524,0.236170017118389,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-liver-025d-dn,0.75003159958942,0.232233902944915,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 a673 6h-curcumin-480,0.751485512718811,0.211941726160591,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",activator,high,True,literature_classified,positive
+gossypol ttd 00008290,0.752013933732217,0.20567499034817,2,DSigDB,unknown,,True,literature_classified,excluded
+cpc017 npc 24h-aminogenistein-100,0.752013933732217,0.20567499034817,1,LINCS_L1000_Chem_Pert_up,activator,medium,True,literature_classified,positive
+cpc004 hcc515 24h-hypericin-100,0.752013933732217,0.20567499034817,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 ht29 24h-rottlerin ncgc00025228-11-968,0.755543054701019,0.212562723283887,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+gossypol boss,0.758230644178816,0.196092080267762,2,DSigDB,unknown,,True,literature_classified,excluded
+idebenone-2500 mgkg in cmc-rat-liver-1d-dn,0.766815802735041,0.20994004540048,2,DrugMatrix,unknown,,True,ene_one,excluded
+cpc004 hcc515 6h-rottlerin-100,0.770201320910123,0.1784844175999,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+catechol-195 mgkg in saline-rat-bone marrow-1d-dn,0.777533324029152,0.196262472032791,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-kidney-1d-up,0.777533324029152,0.196262472032791,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc004 hcc515 24h-benzopurpurin b-100,0.781580417802029,0.162731776710491,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+cpc006 ncih596 6h-curcumin-480,0.787057299393142,0.155477292939281,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-liver-025d-dn,0.790405219068311,0.180391625622366,2,DrugMatrix,unknown,,True,catechol,excluded
+hydroquinone-800 mgkg in cmc-rat-kidney-5d-up,0.790405219068311,0.180391625622366,2,DrugMatrix,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-liver-3d-dn,0.797851543217416,0.171480872004693,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 tyknu 6h-rottlerin ncgc00025228-11-968,0.807627971319151,0.130028007296786,2,"LINCS_L1000_Chem_Pert_down,LINCS_L1000_Chem_Pert_up",unknown,,True,literature_classified,excluded
+genistein-375 mgkg in corn oil-rat-liver-3d-up,0.81443280276792,0.152331780328277,2,DrugMatrix,activator,medium,True,literature_classified,positive
+idebenone-2500 mgkg in cmc-rat-liver-025d-up,0.81671217389639,0.149772854765837,2,DrugMatrix,unknown,,True,ene_one,excluded
+genistein-20 mgkg in corn oil-rat-liver-3d-up,0.834161736531931,0.130757689850093,2,DrugMatrix,activator,medium,True,literature_classified,positive
+hydroquinone-800 mgkg in cmc-rat-kidney-5d-dn,0.853883692554796,0.107574229761775,2,DrugMatrix,unknown,,True,quinone,excluded
+genistein-375 mgkg in corn oil-rat-liver-025d-dn,0.857899457214843,0.10364076920427,2,DrugMatrix,activator,medium,True,literature_classified,positive
+cpc004 hcc515 6h-hypericin-100,0.861742838321151,0.0752182551371349,1,LINCS_L1000_Chem_Pert_up,unknown,,True,literature_classified,excluded
+catechol-40 mgkg in saline-rat-kidney-1d-dn,0.86375021359076,0.0980048945878288,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-liver-5d-dn,0.869397666045768,0.0926710403107443,2,DrugMatrix,unknown,,True,catechol,excluded
+cpc006 hec108 6h-curcumin-480,0.875109639215945,0.064093941636989,1,LINCS_L1000_Chem_Pert_up,activator,high,True,literature_classified,positive
+genistein-375 mgkg in corn oil-rat-liver-1d-up,0.881811122347154,0.0813106378387268,2,DrugMatrix,activator,medium,True,literature_classified,positive
+catechol-40 mgkg in saline-rat-bone marrow-1d-dn,0.885167782671431,0.078324133063645,1,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-kidney-025d-dn,0.903639175050978,0.0625369669151519,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-40 mgkg in saline-rat-liver-5d-up,0.907832835158653,0.0591052659262428,2,DrugMatrix,unknown,,True,catechol,excluded
+genistein-20 mgkg in corn oil-rat-liver-1d-dn,0.912887374765866,0.0525472623023277,2,DrugMatrix,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-kidney-5d-dn,0.923550881303215,0.0445089484718349,2,DrugMatrix,unknown,,True,catechol,excluded
+idebenone-2500 mgkg in cmc-rat-liver-5d-up,0.936299697690625,0.0354090329053268,2,DrugMatrix,unknown,,True,ene_one,excluded
+catechol-195 mgkg in saline-rat-kidney-3d-dn,0.944326664830271,0.029971262473595,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-kidney-3d-up,0.944326664830271,0.029971262473595,2,DrugMatrix,unknown,,True,catechol,excluded
+genistein-20 mgkg in corn oil-rat-liver-5d-up,0.961153063636092,0.0177674389136278,2,DrugMatrix,activator,medium,True,literature_classified,positive
+catechol-195 mgkg in saline-rat-kidney-1d-dn,0.974063447887181,0.0108884570106796,2,DrugMatrix,unknown,,True,catechol,excluded
+hydroquinone-800 mgkg in cmc-rat-kidney-3d-up,0.979084255494641,0.0084223220383118,2,DrugMatrix,unknown,,True,quinone,excluded
+catechol-40 mgkg in saline-rat-bone marrow-025d-dn,0.98350213028424,0.0063619582067453,2,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-kidney-1d-up,0.997159209521324,0.0006958389060774,1,DrugMatrix,unknown,,True,catechol,excluded
+catechol-195 mgkg in saline-rat-kidney-5d-up,0.999705948578598,3.55511263132271e-05,2,DrugMatrix,unknown,,True,catechol,excluded

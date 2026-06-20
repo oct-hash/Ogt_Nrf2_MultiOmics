@@ -1,0 +1,209 @@
+Drug,Fisher_P,N_DBs,DBs,SMILES,RDKit_PAINS,PAINS_Alert_Count,PAINS_Alert_Names,SMILES_Found,lit_is_pains,lit_is_nrf2_known,COMPREHENSIVE_PAINS,COMPREHENSIVE_NRF2
+azd-7762,1.127295121498666e-52,2,"LINCS_Down,LINCS_Up",C1CC(CNC1)NC(=O)C2=C(C=C(S2)C3=CC(=CC=C3)F)NC(=O)N,False,0,,True,False,False,False,False
+dasatinib,3.0436010613591584e-46,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=CC(=NC(=N3)C)N4CCN(CC4)CCO,False,0,,True,False,False,False,False
+alvocidib,4.1591993609467247e-41,3,"DSigDB,LINCS_Down,LINCS_Up",CN1CCC(C(C1)O)C2=C(C=C(C3=C2OC(=CC3=O)C4=CC=CC=C4Cl)O)O,False,0,,True,False,False,False,False
+cgp-60474,6.362378353539944e-40,2,"LINCS_Down,LINCS_Up",C1=CC(=CC(=C1)Cl)NC2=NC=CC(=N2)C3=CC(=NC=C3)NCCCO,False,0,,True,False,False,False,False
+canertinib,1.1044919742728156e-39,2,"LINCS_Down,LINCS_Up",C=CC(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4,False,0,,True,False,False,False,False
+nilotinib,5.47795734755602e-39,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=C(C=C(C=C1)C(=O)NC2=CC(=CC(=C2)C(F)(F)F)N3C=C(N=C3)C)NC4=NC=CC(=N4)C5=CN=CC=C5,False,0,,True,False,False,False,False
+linifanib,1.3208694201661874e-38,2,"LINCS_Down,LINCS_Up",CC1=CC(=C(C=C1)F)NC(=O)NC2=CC=C(C=C2)C3=C4C(=CC=C3)NN=C4N,False,0,,True,False,False,False,False
+plx-4720,2.180905276256546e-38,2,"LINCS_Down,LINCS_Up",CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=C2C=C(C=N3)Cl)F,False,0,,True,False,False,False,False
+a443654,8.686450841082834e-38,2,"LINCS_Down,LINCS_Up",CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CNC5=CC=CC=C54)N,False,0,,True,False,False,False,False
+bms-387032,1.231950077753037e-37,2,"LINCS_Down,LINCS_Up",CC(C)(C)C1=CN=C(O1)CSC2=CN=C(S2)NC(=O)C3CCNCC3,False,0,,True,False,False,False,False
+saracatinib,9.957823576460137e-37,2,"LINCS_Down,LINCS_Up",CN1CCN(CC1)CCOC2=CC3=C(C(=C2)OC4CCOCC4)C(=NC=N3)NC5=C(C=CC6=C5OCO6)Cl,False,0,,True,False,False,False,False
+wz-4-145,1.7986030938000846e-34,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+gdc-0941,7.051240187055226e-34,3,"DSigDB,LINCS_Down,LINCS_Up",CS(=O)(=O)N1CCN(CC1)CC2=CC3=C(S2)C(=NC(=N3)C4=C5C=NNC5=CC=C4)N6CCOCC6,False,0,,True,False,False,False,False
+withaferin-a,1.5181267304855021e-33,2,"LINCS_Down,LINCS_Up",CC1=C(C(=O)OC(C1)C(C)C2CCC3C2(CCC4C3CC5C6(C4(C(=O)C=CC6O)C)O5)C)CO,False,0,,True,True,True,True,True
+ldn-193189,3.356602237741747e-33,2,"LINCS_Down,LINCS_Up",C1CN(CCN1)C2=CC=C(C=C2)C3=CN4C(=C(C=N4)C5=CC=NC6=CC=CC=C56)N=C3,False,0,,True,False,False,False,False
+ql-xii-47,5.101202471604712e-33,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+gsk-2126458,4.4535830551655537e-32,2,"LINCS_Down,LINCS_Up",COC1=C(C=C(C=N1)C2=CC3=C(C=CN=C3C=C2)C4=CN=NC=C4)NS(=O)(=O)C5=C(C=C(C=C5)F)F,False,0,,True,False,False,False,False
+kin001-043,6.856264884769563e-32,2,"LINCS_Down,LINCS_Up",C1=CC=C2C(=C1)C(=C(N2)C3=C(NC4=C3C=CC(=C4)Br)O)N=O,False,0,,True,False,False,False,False
+gefitinib,2.2258927579127263e-31,3,"DSigDB,LINCS_Down,LINCS_Up",COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4,False,0,,True,False,False,False,False
+mitoxantrone,3.6339917349062532e-31,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",C1=CC(=C2C(=C1NCCNCCO)C(=O)C3=C(C=CC(=C3C2=O)O)O)NCCNCCO,True,4,quinone_A(370); anthranil_one_A(38); quinone_A(370); anthranil_one_A(38),True,False,False,True,False
+pf-562271,5.6489709506536055e-31,2,"LINCS_Down,LINCS_Up",CN(C1=C(C=CC=N1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(C=C3)NC(=O)C4)S(=O)(=O)C,False,0,,True,False,False,False,False
+dovitinib,1.6946653942864318e-30,2,"LINCS_Down,LINCS_Up",CN1CCN(CC1)C2=CC3=C(C=C2)N=C(N3)C4=C(C5=C(C=CC=C5F)NC4=O)N,False,0,,True,False,False,False,False
+as-605240,4.109559402838557e-30,2,"LINCS_Down,LINCS_Up",C1=CC2=NC=CN=C2C=C1C=C3C(=O)NC(=O)S3,False,0,,True,False,False,False,False
+azd-5438,1.1362830670068757e-29,2,"LINCS_Down,LINCS_Up",CC1=NC=C(N1C(C)C)C2=NC(=NC=C2)NC3=CC=C(C=C3)S(=O)(=O)C,False,0,,True,False,False,False,False
+foretinib,1.442206139841281e-29,2,"LINCS_Down,LINCS_Up",COC1=CC2=C(C=CN=C2C=C1OCCCN3CCOCC3)OC4=C(C=C(C=C4)NC(=O)C5(CC5)C(=O)NC6=CC=C(C=C6)F)F,False,0,,True,False,False,False,False
+sorafenib,1.5274676609517888e-29,3,"DSigDB,LINCS_Down,LINCS_Up",CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F,False,0,,True,False,False,False,False
+pelitinib,1.9688763381238644e-29,2,"LINCS_Down,LINCS_Up",CCOC1=C(C=C2C(=C1)N=CC(=C2NC3=CC(=C(C=C3)F)Cl)C#N)NC(=O)C=CCN(C)C,False,0,,True,False,False,False,False
+radicicol,2.6241102411418737e-29,2,"LINCS_Down,LINCS_Up",CC1CC2C(O2)C=CC=CC(=O)CC3=C(C(=CC(=C3Cl)O)O)C(=O)O1,False,0,,True,False,False,False,False
+tws-119,1.2385868945516319e-28,2,"LINCS_Down,LINCS_Up",C1=CC(=CC(=C1)N)C2=CC3=C(N2)N=CN=C3OC4=CC=CC(=C4)O,False,0,,True,False,False,False,False
+celastrol,1.357900322684861e-28,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=C(C(=O)C=C2C1=CC=C3C2(CCC4(C3(CCC5(C4CC(CC5)(C)C(=O)O)C)C)C)C)O,False,0,,True,True,True,True,True
+hg-6-64-01,1.9606292139622098e-28,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+pd-0325901,3.073368351175773e-28,2,"LINCS_Down,LINCS_Up",C1=CC(=C(C=C1I)F)NC2=C(C=CC(=C2F)F)C(=O)NOCC(CO)O,False,0,,True,False,False,False,False
+geldanamycin,6.5016348809043965e-28,3,"DSigDB,LINCS_Down,LINCS_Up",CC1CC(C(C(C=C(C(C(C=CC=C(C(=O)NC2=CC(=O)C(=C(C1)C2=O)OC)C)OC)OC(=O)N)C)C)O)OC,True,2,quinone_A(370); quinone_A(370),True,False,False,True,False
+pf-477736,9.254513107255474e-28,2,"LINCS_Down,LINCS_Up",CN1C=C(C=N1)C2=C3C=NNC(=O)C4=C3C(=CC(=C4)NC(=O)C(C5CCCCC5)N)N2,False,0,,True,False,False,False,False
+sb590885,1.1411446600558467e-27,2,"LINCS_Down,LINCS_Up",CN(C)CCOC1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC5=C(C=C4)C(=NO)CC5,False,0,,True,False,False,False,False
+at-7519,5.428142755192757e-27,2,"LINCS_Down,LINCS_Up",C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl,False,0,,True,False,False,False,False
+erlotinib,6.1789374383356346e-27,3,"DSigDB,LINCS_Down,LINCS_Up",COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC,False,0,,True,False,False,False,False
+buparlisib,1.5978295710663367e-26,2,"LINCS_Down,LINCS_Up",C1COCCN1C2=NC(=NC(=C2)C3=CN=C(C=C3C(F)(F)F)N)N4CCOCC4,False,0,,True,False,False,False,False
+trametinib,2.1082781088439408e-26,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=C2C(=C(N(C1=O)C)NC3=C(C=C(C=C3)I)F)C(=O)N(C(=O)N2C4=CC=CC(=C4)NC(=O)C)C5CC5,False,0,,True,False,False,False,False
+tanespimycin,2.2740975576255272e-26,3,"DSigDB,LINCS_Down,LINCS_Up",CC1CC(C(C(C=C(C(C(C=CC=C(C(=O)NC2=CC(=O)C(=C(C1)C2=O)NCC=C)C)OC)OC(=O)N)C)C)O)OC,True,2,quinone_A(370); quinone_A(370),True,False,False,True,False
+bx-795,8.696125214408159e-26,2,"LINCS_Down,LINCS_Up",C1CCN(C1)C(=O)NC2=CC=CC(=C2)NC3=NC=C(C(=N3)NCCCNC(=O)C4=CC=CS4)I,False,0,,True,False,False,False,False
+afatinib,1.2834177038059117e-25,3,"DSigDB,LINCS_Down,LINCS_Up",CN(C)CC=CC(=O)NC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC(=C(C=C3)F)Cl)OC4CCOC4,False,0,,True,False,False,False,False
+hg-5-88-01,5.7535124155830835e-25,2,"LINCS_Down,LINCS_Up",CC(C)S(=O)(=O)C1=CC=CC=C1NC2=NC(=NC(=C2Cl)N)NC3=C(C=C(C=C3)N4CCC(CC4)C(=O)N)OC,False,0,,True,False,False,False,False
+anisomycin,1.3888794336912596e-24,3,"DSigDB,LINCS_Down,LINCS_Up",CC(=O)OC1C(CNC1CC2=CC=C(C=C2)OC)O,False,0,,True,False,False,False,False
+gdc-0879,2.003784208339797e-24,2,"LINCS_Down,LINCS_Up",C1CC(=NO)C2=C1C=C(C=C2)C3=CN(N=C3C4=CC=NC=C4)CCO,False,0,,True,False,False,False,False
+selumetinib,1.0135936186363029e-23,2,"LINCS_Down,LINCS_Up",CN1C=NC2=C1C=C(C(=C2F)NC3=C(C=C(C=C3)Br)Cl)C(=O)NOCCO,False,0,,True,False,False,False,False
+tgx-221,2.3650103901553849e-23,2,"LINCS_Down,LINCS_Up",CC1=CN2C(=O)C=C(N=C2C(=C1)C(C)NC3=CC=CC=C3)N4CCOCC4,False,0,,True,False,False,False,False
+jw-7-24-1,7.352500568574425e-23,2,"LINCS_Down,LINCS_Up",COC1=CC(=CC(=C1)C2=CC3=C4C(=CN=C3C=C2)C=CC(=O)N4C5=CC(=C(C=C5)N6CCNCC6)C(F)(F)F)OC,True,2,anil_di_alk_A(478); anil_di_alk_A(478),True,False,False,True,False
+dcc-2036,8.302864740585691e-23,2,"LINCS_Down,LINCS_Up",CC(C)(C)C1=NN(C(=C1)NC(=O)NC2=C(C=C(C=C2)OC3=CC(=NC=C3)C(=O)NC)F)C4=CC5=C(C=C4)N=CC=C5,False,0,,True,False,False,False,False
+fostamatinib,9.002143724499515e-23,2,"LINCS_Down,LINCS_Up",CC1(C(=O)N(C2=C(O1)C=CC(=N2)NC3=NC(=NC=C3F)NC4=CC(=C(C(=C4)OC)OC)OC)COP(=O)(O)O)C,False,0,,True,False,False,False,False
+nvp-tae684,1.1779473934056127e-22,3,"DSigDB,LINCS_Down,LINCS_Up",CC(C)S(=O)(=O)C1=CC=CC=C1NC2=NC(=NC=C2Cl)NC3=C(C=C(C=C3)N4CCC(CC4)N5CCN(CC5)C)OC,False,0,,True,False,False,False,False
+bms-345541,1.8052087752912336e-22,2,"LINCS_Down,LINCS_Up",CC1=CC2=C(C=C1)N=C(C3=NC=C(N23)C)NCCN.Cl,False,0,,True,False,False,False,False
+dabrafenib,2.1131298198693045e-22,2,"LINCS_Down,LINCS_Up",CC(C)(C)C1=NC(=C(S1)C2=NC(=NC=C2)N)C3=C(C(=CC=C3)NS(=O)(=O)C4=C(C=CC=C4F)F)F,False,0,,True,False,False,False,False
+torin-2,2.7623812101938173e-22,2,"LINCS_Down,LINCS_Up",C1=CC(=CC(=C1)N2C(=O)C=CC3=CN=C4C=CC(=CC4=C32)C5=CN=C(C=C5)N)C(F)(F)F,False,0,,True,False,False,False,False
+zstk-474,5.172205632493888e-22,2,"LINCS_Down,LINCS_Up",C1COCCN1C2=NC(=NC(=N2)N3C4=CC=CC=C4N=C3C(F)F)N5CCOCC5,False,0,,True,False,False,False,False
+azacitidine,7.233728884155733e-22,3,"DSigDB,LINCS_Down,LINCS_Up",C1=NC(=NC(=O)N1C2C(C(C(O2)CO)O)O)N,False,0,,True,False,False,False,False
+neratinib,1.0784944649434248e-21,2,"LINCS_Down,LINCS_Up",CCOC1=C(C=C2C(=C1)N=CC(=C2NC3=CC(=C(C=C3)OCC4=CC=CC=N4)Cl)C#N)NC(=O)C=CCN(C)C,False,0,,True,False,False,False,False
+linsitinib,1.4575874081265481e-21,2,"LINCS_Down,LINCS_Up",CC1(CC(C1)C2=NC(=C3N2C=CN=C3N)C4=CC5=C(C=C4)C=CC(=N5)C6=CC=CC=C6)O,False,0,,True,False,False,False,False
+gsk-1059615,1.5327534770537002e-21,2,"LINCS_Down,LINCS_Up",C1=CC2=NC=CC(=C2C=C1C=C3C(=O)NC(=O)S3)C4=CC=NC=C4,False,0,,True,False,False,False,False
+pd-184352,4.399901903062173e-21,2,"LINCS_Down,LINCS_Up",C1CC1CONC(=O)C2=C(C(=C(C=C2)F)F)NC3=C(C=C(C=C3)I)Cl,False,0,,True,False,False,False,False
+pi-103,5.204257392899551e-21,3,"DSigDB,LINCS_Down,LINCS_Up",C1COCCN1C2=NC(=NC3=C2OC4=C3C=CC=N4)C5=CC(=CC=C5)O,False,0,,True,False,False,False,False
+ql-x-138,5.532459380945958e-21,2,"LINCS_Down,LINCS_Up",CC1=C(C=C(C=C1)N2C(=O)C=CC3=CN=C4C=CC(=CC4=C32)C5=CNN=C5)NC(=O)C=C,False,0,,True,False,False,False,False
+pha-665752,7.960849457610275e-21,2,"LINCS_Down,LINCS_Up",CC1=C(NC(=C1C(=O)N2CCCC2CN3CCCC3)C)C=C4C5=C(C=CC(=C5)S(=O)(=O)CC6=C(C=CC=C6Cl)Cl)NC4=O,False,0,,True,False,False,False,False
+bi-2536,8.443415478935136e-21,2,"LINCS_Down,LINCS_Up",CCC1C(=O)N(C2=CN=C(N=C2N1C3CCCC3)NC4=C(C=C(C=C4)C(=O)NC5CCN(CC5)C)OC)C,False,0,,True,False,False,False,False
+wz-3105,1.2905388053423914e-20,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+regorafenib,1.4400883150530622e-20,2,"LINCS_Down,LINCS_Up",CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F,False,0,,True,False,False,False,False
+estradiol,1.5458551119354748e-20,3,"DSigDB,LINCS_Down,LINCS_Up",CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O,False,0,,True,False,False,False,False
+azd-8330,2.245549669060841e-20,2,"LINCS_Down,LINCS_Up",CC1=CC(=C(N(C1=O)C)NC2=C(C=C(C=C2)I)F)C(=O)NOCCO,False,0,,True,False,False,False,False
+gsk-690693,2.2639205532296518e-20,2,"LINCS_Down,LINCS_Up",CCN1C2=C(C(=NC=C2OCC3CCCNC3)C#CC(C)(C)O)N=C1C4=NON=C4N,False,0,,True,False,False,False,False
+progesterone,5.42838955956752e-20,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C,False,0,,True,False,False,False,False
+lapatinib,1.2465286873733613e-19,3,"DSigDB,LINCS_Down,LINCS_Up",CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl,False,0,,True,False,False,False,False
+spiperone,1.3407711566251912e-19,3,"DSigDB,LINCS_Down,LINCS_Up",C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(=O)C4=CC=C(C=C4)F,False,0,,True,False,False,False,False
+pha-793887,1.3912497638787682e-19,2,"LINCS_Down,LINCS_Up",CC(C)CC(=O)NC1=NNC2=C1CN(C2(C)C)C(=O)C3CCN(CC3)C,False,0,,True,False,False,False,False
+jnk-9l,2.4199898985629743e-19,2,"LINCS_Down,LINCS_Up",C1COCCN1C2=CC(=CC(=C2)C3=NC(=NC=C3)NC4=CC=C(C=C4)N5C=NC(=N5)N6CCOCC6)F,False,0,,True,False,False,False,False
+cgk-733,6.152205624475927e-19,2,"LINCS_Down,LINCS_Up",C1=CC=C(C=C1)C(C2=CC=CC=C2)C(=O)NC(C(Cl)(Cl)Cl)NC(=S)NC3=CC(=C(C=C3)F)[N+](=O)[O-],False,0,,True,False,False,False,False
+nvp-auy922,6.220503226605638e-19,2,"LINCS_Down,LINCS_Up",CCNC(=O)C1=NOC(=C1C2=CC=C(C=C2)CN3CCOCC3)C4=CC(=C(C=C4O)O)C(C)C,False,0,,True,False,False,False,False
+decitabine,6.915942127067935e-19,3,"DSigDB,LINCS_Down,LINCS_Up",C1C(C(OC1N2C=NC(=NC2=O)N)CO)O,False,0,,True,False,False,False,False
+etoposide,1.382142039946313e-18,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1OCC2C(O1)C(C(C(O2)OC3C4COC(=O)C4C(C5=CC6=C(C=C35)OCO6)C7=CC(=C(C(=C7)OC)O)OC)O)O,False,0,,True,False,False,False,False
+osi-027,1.8974561822228023e-18,2,"LINCS_Down,LINCS_Up",COC1=CC=CC2=C1NC(=C2)C3=C4C(=NC=NN4C(=N3)C5CCC(CC5)C(=O)O)N,False,0,,True,False,False,False,False
+265,1.913563765489344e-18,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+menadione,4.954975408483823e-18,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=CC(=O)C2=CC=CC=C2C1=O,True,2,quinone_A(370); quinone_A(370),True,False,False,True,False
+pf-431396,5.75938689135087e-18,2,"LINCS_Down,LINCS_Up",CN(C1=CC=CC=C1CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(C=C3)NC(=O)C4)S(=O)(=O)C,False,0,,True,False,False,False,False
+chloride,6.115389287416081e-18,2,"LINCS_Down,LINCS_Up",[Cl-],False,0,,True,False,False,False,False
+vorinostat,6.2198410461090076e-18,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO,False,0,,True,False,False,False,False
+as-601245,7.063679637299663e-18,2,"LINCS_Down,LINCS_Up",C1=CC=C2C(=C1)N=C(S2)C(C#N)C3=NC(=NC=C3)NCCC4=CN=CC=C4,False,0,,True,False,False,False,False
+chir-99021,9.921841002502645e-18,2,"LINCS_Down,LINCS_Up",CC1=CN=C(N1)C2=CN=C(N=C2C3=C(C=C(C=C3)Cl)Cl)NCCNC4=NC=C(C=C4)C#N,False,0,,True,False,False,False,False
+ast1306,2.411069649440448e-17,2,"LINCS_Down,LINCS_Up",C=CC(=O)NC1=CC2=C(C=C1)N=CN=C2NC3=CC(=C(C=C3)OCC4=CC(=CC=C4)F)Cl,False,0,,True,False,False,False,False
+digoxin,8.17482071411859e-17,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,False,0,,True,False,False,False,False
+xmd-1150,1.3456940653204954e-16,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+pd-173074,1.41513318427129e-16,2,"LINCS_Down,LINCS_Up",CCN(CC)CCCCNC1=NC2=NC(=C(C=C2C=N1)C3=CC(=CC(=C3)OC)OC)NC(=O)NC(C)(C)C,False,0,,True,False,False,False,False
+terfenadine,1.5347015701372667e-16,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC(C)(C)C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O,False,0,,True,False,False,False,False
+torin-1,1.8131360412556203e-16,2,"LINCS_Down,LINCS_Up",CCC(=O)N1CCN(CC1)C2=C(C=C(C=C2)N3C(=O)C=CC4=CN=C5C=CC(=CC5=C43)C6=CC7=CC=CC=C7N=C6)C(F)(F)F,True,2,anil_di_alk_A(478); anil_di_alk_A(478),True,False,False,True,False
+dacomitinib,3.061038939983786e-16,2,"LINCS_Down,LINCS_Up",COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)NC(=O)C=CCN4CCCCC4,False,0,,True,False,False,False,False
+bix-01294,3.449758268401887e-16,2,"LINCS_Down,LINCS_Up",CN1CCCN(CC1)C2=NC3=CC(=C(C=C3C(=N2)NC4CCN(CC4)CC5=CC=CC=C5)OC)OC,False,0,,True,False,False,False,False
+wh-4-025,4.765868129996257e-16,2,"LINCS_Down,LINCS_Up",CC1=C(C=C(C=C1)C(=O)NC2=CC=CC(=C2)C(F)(F)F)OC(=O)N(C3=C(C=C(C=C3)OC)OC)C4=NC(=NC=C4)NC5=CC=C(C=C5)N6CCN(CC6)C,True,2,anil_di_alk_A(478); anil_di_alk_A(478),True,False,False,True,False
+mk-1775,6.374799300545727e-16,2,"LINCS_Down,LINCS_Up",CC(C)(C1=NC(=CC=C1)N2C3=NC(=NC=C3C(=O)N2CC=C)NC4=CC=C(C=C4)N5CCN(CC5)C)O,True,2,anil_di_alk_A(478); anil_di_alk_A(478),True,False,False,True,False
+kin001-265,7.485074626794831e-16,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+az-628,8.74741556942936e-16,2,"LINCS_Down,LINCS_Up",CC1=C(C=C(C=C1)NC(=O)C2=CC(=CC=C2)C(C)(C)C#N)NC3=CC4=C(C=C3)N=CN(C4=O)C,False,0,,True,False,False,False,False
+i-bet,1.0478466823402877e-15,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+bx-912,1.1292850083284102e-15,2,"LINCS_Down,LINCS_Up",C1CCN(C1)C(=O)NC2=CC=CC(=C2)NC3=NC=C(C(=N3)NCCC4=CN=CN4)Br,False,0,,True,False,False,False,False
+gsk-461364,1.3639828983994977e-15,2,"LINCS_Down,LINCS_Up",CC(C1=CC=CC=C1C(F)(F)F)OC2=C(SC(=C2)N3C=NC4=C3C=C(C=C4)CN5CCN(CC5)C)C(=O)N,False,0,,True,False,False,False,False
+xmd16-144,1.494692861053282e-15,2,"LINCS_Down,LINCS_Up",CN1C2=CC=CC=C2C(=O)N(C3=CN=C(N=C31)NC4=CC(=CC=C4)NC(=O)C=CCN(C)C)C,False,0,,True,False,False,False,False
+kin001-220,1.6633132940093708e-15,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+az20,1.7281197813696485e-15,2,"LINCS_Down,LINCS_Up",CC1COCCN1C2=NC(=NC(=C2)C3(CC3)S(=O)(=O)C)C4=C5C=CNC5=CC=C4,False,0,,True,False,False,False,False
+dexamethasone,3.053091404527054e-15,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,False,0,,True,False,False,False,False
+ibrutinib,4.7422259977542886e-15,2,"LINCS_Down,LINCS_Up",C=CC(=O)N1CCCC(C1)N2C3=NC=NC(=C3C(=N2)C4=CC=C(C=C4)OC5=CC=CC=C5)N,False,0,,True,False,False,False,False
+gdc-0980,4.77450436983198e-15,2,"LINCS_Down,LINCS_Up",CC1=C(SC2=C1N=C(N=C2N3CCOCC3)C4=CN=C(N=C4)N)CN5CCN(CC5)C(=O)C(C)O,False,0,,True,False,False,False,False
+niclosamide,4.915394123447371e-15,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O,False,0,,True,False,False,False,False
+calcitriol,5.7921063819422876e-15,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C,False,0,,True,False,False,False,False
+raloxifene,6.645482891589908e-15,2,"DSigDB,DrugMatrix",C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,False,0,,True,False,False,False,False
+nintedanib,7.062673633133448e-15,2,"LINCS_Down,LINCS_Up",CN1CCN(CC1)CC(=O)N(C)C2=CC=C(C=C2)N=C(C3=CC=CC=C3)C4=C(NC5=C4C=CC(=C5)C(=O)OC)O,False,0,,True,False,False,False,False
+enzastaurin,7.873946237987603e-15,2,"LINCS_Down,LINCS_Up",CN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CN(C5=CC=CC=C54)C6CCN(CC6)CC7=CC=CC=N7,False,0,,True,False,False,False,False
+gw-843682x,8.969311792348303e-15,2,"LINCS_Down,LINCS_Up",COC1=C(C=C2C(=C1)N=CN2C3=CC(=C(S3)C(=O)N)OCC4=CC=CC=C4C(F)(F)F)OC,False,0,,True,False,False,False,False
+mebendazole,9.878533736197992e-15,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3,False,0,,True,False,False,False,False
+vemurafenib,1.0624648756407624e-14,2,"LINCS_Down,LINCS_Up",CCCS(=O)(=O)NC1=C(C(=C(C=C1)F)C(=O)C2=CNC3=C2C=C(C=N3)C4=CC=C(C=C4)Cl)F,False,0,,True,False,False,False,False
+nu-7441,1.1151634599927104e-14,2,"LINCS_Down,LINCS_Up",C1COCCN1C2=CC(=O)C3=C(O2)C(=CC=C3)C4=CC=CC5=C4SC6=CC=CC=C56,False,0,,True,False,False,False,False
+wye-125132,1.2509053978413954e-14,2,"LINCS_Down,LINCS_Up",CNC(=O)NC1=CC=C(C=C1)C2=NC3=C(C=NN3C4CCC5(CC4)OCCO5)C(=N2)N6CC7CCC(C6)O7,False,0,,True,False,False,False,False
+valsartan,1.5736123948822186e-14,2,"DSigDB,DrugMatrix",CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O,False,0,,True,False,False,False,False
+amuvatinib,1.8827406409882932e-14,2,"LINCS_Down,LINCS_Up",C1CN(CCN1C2=NC=NC3=C2OC4=CC=CC=C43)C(=S)NCC5=CC6=C(C=C5)OCO6,False,0,,True,False,False,False,False
+jnk-in-5a,2.2672889143564834e-14,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+ly2603618,2.805195700597064e-14,2,"LINCS_Down,LINCS_Up",CC1=CC(=C(C=C1Br)NC(=O)NC2=NC=C(N=C2)C)OCC3CNCCO3,False,0,,True,False,False,False,False
+tamoxifen,3.404532564993524e-14,2,"DSigDB,DrugMatrix",CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3,False,0,,True,False,False,False,False
+tivantinib,4.1210758633351465e-14,2,"LINCS_Down,LINCS_Up",C1CC2=C3C(=CC=C2)C(=CN3C1)C4C(C(=O)NC4=O)C5=CNC6=CC=CC=C65,False,0,,True,False,False,False,False
+ink-128,4.540932695192523e-14,2,"LINCS_Down,LINCS_Up",CC(C)N1C2=NC=NC(=C2C(=N1)C3=CC4=C(C=C3)OC(=N4)N)N,False,0,,True,False,False,False,False
+thioridazine,6.411577667034878e-14,2,"DSigDB,DrugMatrix",CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,False,0,,True,False,False,False,False
+troglitazone,6.411632940794944e-14,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1=C(C2=C(CCC(O2)(C)COC3=CC=C(C=C3)CC4C(=O)NC(=O)S4)C(=C1O)C)C,False,0,,True,False,False,False,False
+i-bet151,8.620595976820992e-14,2,"LINCS_Down,LINCS_Up",CC1=C(C(=NO1)C)C2=C(C=C3C(=C2)N=CC4=C3N(C(=O)N4)C(C)C5=CC=CC=N5)OC,False,0,,True,False,False,False,False
+hg-14-8-02,8.881783005577055e-14,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+methylstat,9.158613343075516e-14,2,"LINCS_Down,LINCS_Up",COC(=O)C=CC(=O)N(CCCCNCC1=CC=C(C=C1)COC(=O)NC2=CC=CC3=CC=CC=C32)O,False,0,,True,False,False,False,False
+thapsigargin,1.7242892691484336e-13,3,"DSigDB,LINCS_Down,LINCS_Up",CCCCCCCC(=O)OC1C2C(=C(C1OC(=O)C(=CC)C)C)C3C(C(CC2(C)OC(=O)C)OC(=O)CCC)(C(C(=O)O3)(C)O)O,False,0,,True,False,False,False,False
+parthenolide,1.8123919621214814e-13,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=CCCC2(C(O2)C3C(CC1)C(=C)C(=O)O3)C,False,0,,True,False,False,False,False
+sar-245408,2.45344289983763e-13,2,"LINCS_Down,LINCS_Up",CC(C)(C(=O)NC1=CC(=CC=C1)S(=O)(=O)NC2=NC3=CC=CC=C3N=C2NC4=C(C=CC(=C4)OC)Cl)N,False,0,,True,False,False,False,False
+nvp-bgt226,2.480202369773085e-13,2,"LINCS_Down,LINCS_Up",CN1C2=CN=C3C=CC(=CC3=C2N(C1=O)C4=CC(=C(C=C4)N5CCNCC5)C(F)(F)F)C6=CN=C(C=C6)OC.C(=CC(=O)O)C(=O)O,True,2,anil_di_alk_A(478); anil_di_alk_A(478),True,False,False,True,False
+ibuprofen,2.5832817666801897e-13,2,"DSigDB,DrugMatrix",CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,False,0,,True,False,False,False,False
+syk-inhibitor,3.4791977201770266e-13,2,"LINCS_Down,LINCS_Up",CN1C=C(C2=CC=CC=C21)C=C3C4=C(C=CC(=C4)S(=O)(=O)N)NC3=O,True,2,ene_five_het_L(4); ene_five_het_L(4),True,False,False,True,False
+c646,3.750343884727416e-13,2,"LINCS_Down,LINCS_Up",CC1=CC(=C(C=C1C)[N+](=O)[O-])C2=CC=C(O2)C=C3C(=NN(C3=O)C4=CC=C(C=C4)C(=O)O)C,True,2,ene_five_het_A(201); ene_five_het_A(201),True,False,False,True,False
+nvp-bez235,3.779132631124735e-13,2,"LINCS_Down,LINCS_Up",CC(C)(C#N)C1=CC=C(C=C1)N2C3=C4C=C(C=CC4=NC=C3N(C2=O)C)C5=CC6=CC=CC=C6N=C5,False,0,,True,False,False,False,False
+on-01910,4.009281507568037e-13,2,"LINCS_Down,LINCS_Up",COC1=C(C=C(C=C1)CS(=O)(=O)C=CC2=C(C=C(C=C2OC)OC)OC)NCC(=O)O,False,0,,True,False,False,False,False
+clonidine,4.3256006126394267e-13,2,"DSigDB,DrugMatrix",C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl,False,0,,True,False,False,False,False
+lomustine,4.3685682040074443e-13,2,"DSigDB,DrugMatrix",C1CCC(CC1)NC(=O)N(CCCl)N=O,False,0,,True,False,False,False,False
+suloctidil,4.839406615590685e-13,3,"DSigDB,LINCS_Down,LINCS_Up",CCCCCCCCNC(C)C(C1=CC=C(C=C1)SC(C)C)O,False,0,,True,False,False,False,False
+clomipramine,6.153943391942375e-13,2,"DSigDB,DrugMatrix",CN(C)CCCN1C2=CC=CC=C2CCC3=C1C=C(C=C3)Cl,False,0,,True,False,False,False,False
+sunitinib,6.297120350248923e-13,3,"DSigDB,LINCS_Down,LINCS_Up",CCN(CC)CCNC(=O)C1=C(NC(=C1C)C=C2C3=C(C=CC(=C3)F)NC2=O)C,False,0,,True,False,False,False,False
+nvp-aew541,6.906769580375372e-13,3,"DSigDB,LINCS_Down,LINCS_Up",C1CN(C1)CC2CC(C2)N3C=C(C4=C(N=CN=C43)N)C5=CC(=CC=C5)OCC6=CC=CC=C6,False,0,,True,False,False,False,False
+resveratrol,7.283591274302338e-13,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC(=CC=C1C=CC2=CC(=CC(=C2)O)O)O,False,0,,True,True,True,True,True
+helveticoside,7.852228337825179e-13,3,"DSigDB,LINCS_Down,LINCS_Up",CC1C(C(CC(O1)OC2CCC3(C4CCC5(C(CCC5(C4CCC3(C2)O)O)C6=CC(=O)OC6)C)C=O)O)O,False,0,,True,False,False,False,False
+genistein,9.104455236199746e-13,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,False,0,,True,True,True,True,True
+xmd-892,1.021970368946127e-12,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+hg-14-10-04,1.07881925091222e-12,2,"LINCS_Down,LINCS_Up",CN1CCN(CC1)C2CCN(CC2)C3=CC(=C(C=C3)NC4=NC=C(C(=N4)C5=CNC6=CC=CC=C65)Cl)OC,False,0,,True,False,False,False,False
+indomethacin,1.1464015122189897e-12,3,"DSigDB,DrugMatrix,LINCS_Up",CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,False,0,,True,False,False,False,False
+phenobarbital,1.4199727864536856e-12,2,"DSigDB,DrugMatrix",CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2,False,0,,True,False,False,False,False
+nvp-tae226,1.532765022866187e-12,2,"LINCS_Down,LINCS_Up",CNC(=O)C1=CC=CC=C1NC2=NC(=NC=C2Cl)NC3=C(C=C(C=C3)N4CCOCC4)OC,False,0,,True,False,False,False,False
+(+)-jq1,1.5575259605099388e-12,2,"LINCS_Down,LINCS_Up",CC1=C(SC2=C1C(=NC(C3=NN=C(N32)C)CC(=O)OC(C)(C)C)C4=CC=C(C=C4)Cl)C,False,0,,True,False,False,False,False
+entinostat,1.649722825613475e-12,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC=C(C(=C1)N)NC(=O)C2=CC=C(C=C2)CNC(=O)OCC3=CN=CC=C3,False,0,,True,False,False,False,False
+aflatoxin b1,3.730571512559282e-12,2,"DSigDB,DrugMatrix",COC1=C2C3=C(C(=O)CC3)C(=O)OC2=C4C5C=COC5OC4=C1,False,0,,True,False,False,False,False
+kin001-055,4.653577682046599e-12,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+tivozanib,4.752743428481243e-12,2,"LINCS_Down,LINCS_Up",CC1=CC(=NO1)NC(=O)NC2=C(C=C(C=C2)OC3=C4C=C(C(=CC4=NC=C3)OC)OC)Cl,False,0,,True,False,False,False,False
+ym-201636,8.065689670414642e-12,2,"LINCS_Down,LINCS_Up",C1COCCN1C2=NC(=NC3=C2OC4=C3C=CC=N4)C5=CC(=CC=C5)NC(=O)C6=CN=C(C=C6)N,False,0,,True,False,False,False,False
+ouabain,8.996859210829483e-12,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1C(C(C(C(O1)OC2CC(C3(C4C(CCC3(C2)O)C5(CCC(C5(CC4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O,False,0,,True,False,False,False,False
+sb-203580,9.955342981571914e-12,2,"LINCS_Down,LINCS_Up",CS(=O)C1=CC=C(C=C1)C2=NC(=C(N2)C3=CC=NC=C3)C4=CC=C(C=C4)F,False,0,,True,False,False,False,False
+aspirin,1.1815357620384732e-11,2,"DSigDB,DrugMatrix",CC(=O)OC1=CC=CC=C1C(=O)O,False,0,,True,False,False,False,False
+dinaciclib,1.1967130874418827e-11,2,"LINCS_Down,LINCS_Up",CCC1=C2N=C(C=C(N2N=C1)NCC3=C[N+](=CC=C3)[O-])N4CCCCC4CCO,False,0,,True,False,False,False,False
+crizotinib,1.2896982870337598e-11,3,"DSigDB,LINCS_Down,LINCS_Up",CC(C1=C(C=CC(=C1Cl)F)Cl)OC2=C(N=CC(=C2)C3=CN(N=C3)C4CCNCC4)N,False,0,,True,False,False,False,False
+tozasertib,1.372706403520944e-11,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=CC(=NN1)NC2=CC(=NC(=N2)SC3=CC=C(C=C3)NC(=O)C4CC4)N5CCN(CC5)C,False,0,,True,False,False,False,False
+gsk-1070916,1.4195840025430446e-11,2,"LINCS_Down,LINCS_Up",CCN1C=C(C(=N1)C2=CC=C(C=C2)NC(=O)N(C)C)C3=C4C=C(NC4=NC=C3)C5=CC=CC(=C5)CN(C)C,False,0,,True,False,False,False,False
+pha-767491,1.9261219369968438e-11,2,"LINCS_Down,LINCS_Up",C1CNC(=O)C2=C1NC(=C2)C3=CC=NC=C3,False,0,,True,False,False,False,False
+mk-2206,1.9596700762277828e-11,2,"LINCS_Down,LINCS_Up",C1CC(C1)(C2=CC=C(C=C2)C3=C(C=C4C(=N3)C=CN5C4=NNC5=O)C6=CC=CC=C6)N,False,0,,True,False,False,False,False
+azd-6482,2.4529603831814697e-11,2,"LINCS_Down,LINCS_Up",CC1=CN2C(=O)C=C(N=C2C(=C1)C(C)NC3=CC=CC=C3C(=O)O)N4CCOCC4,False,0,,True,False,False,False,False
+cycloheximide,2.7676564940784705e-11,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1CC(C(=O)C(C1)C(CC2CC(=O)NC(=O)C2)O)C,False,0,,True,False,False,False,False
+bosutinib,3.178968270344149e-11,3,"DSigDB,LINCS_Down,LINCS_Up",CN1CCN(CC1)CCCOC2=C(C=C3C(=C2)N=CC(=C3NC4=CC(=C(C=C4Cl)Cl)OC)C#N)OC,False,0,,True,False,False,False,False
+benzethonium chloride,3.285425651829125e-11,2,"DSigDB,DrugMatrix",CC(C)(C)CC(C)(C)C1=CC=C(C=C1)OCCOCC[N+](C)(C)CC2=CC=CC=C2.[Cl-],False,0,,True,False,False,False,False
+byl719,3.7548472661496225e-11,2,"LINCS_Down,LINCS_Up",CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N)C3=CC(=NC=C3)C(C)(C)C(F)(F)F,False,0,,True,False,False,False,False
+xmd11-85h,3.9314733624028605e-11,2,"LINCS_Down,LINCS_Up",CC(C)N1C(=O)CCN(C2=NC(=NC=C21)NC3=C(C=C(C=C3)C(=O)NC4CCN(CC4)C)OC)C5CCCC5,False,0,,True,False,False,False,False
+benzo[a]pyrene,4.846172271873054e-11,2,"DSigDB,LINCS_Up",C1=CC=C2C3=C4C(=CC2=C1)C=CC5=C4C(=CC=C5)C=C3,False,0,,True,False,False,False,False
+rocilinostat,5.1749086304805436e-11,2,"LINCS_Down,LINCS_Up",C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=NC=C(C=N3)C(=O)NCCCCCCC(=O)NO,False,0,,True,False,False,False,False
+cyclosporin a,5.431511188868324e-11,2,"DSigDB,DrugMatrix",CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C,False,0,,True,False,False,False,False
+pf-3758309,8.614066140121381e-11,2,"LINCS_Down,LINCS_Up",CC1=NC2=C(C(=N1)NC3=NNC4=C3CN(C4(C)C)C(=O)NC(CN(C)C)C5=CC=CC=C5)SC=C2,False,0,,True,False,False,False,False
+tg-101348,9.146558295872162e-11,2,"LINCS_Down,LINCS_Up",CC1=CN=C(N=C1NC2=CC(=CC=C2)S(=O)(=O)NC(C)(C)C)NC3=CC=C(C=C3)OCCN4CCCC4,False,0,,True,False,False,False,False
+strophanthidin,9.635356701217454e-11,3,"DSigDB,LINCS_Down,LINCS_Up",CC12CCC3C(C1(CCC2C4=CC(=O)OC4)O)CCC5(C3(CCC(C5)O)C=O)O,False,0,,True,False,False,False,False
+alw-ii-38-3,1.0277205222854966e-10,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+thz-2-98-01,1.1289499141444564e-10,2,"LINCS_Down,LINCS_Up",,False,0,,False,False,False,False,False
+perphenazine,1.3303296402913628e-10,3,"DSigDB,LINCS_Down,LINCS_Up",C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO,False,0,,True,False,False,False,False
+hg-5-113-01,1.845323118746838e-10,2,"LINCS_Down,LINCS_Up",CC(C)S(=O)(=O)C1=CC=CC=C1NC2=CC(=NC3=C2C=CN3)NC4=NC=C(C=C4)C(=O)NC,False,0,,True,False,False,False,False
+sirolimus,2.2051826784692207e-10,3,"DSigDB,LINCS_Down,LINCS_Up",CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC,False,0,,True,False,False,False,False
+doxorubicin,2.2748051167988083e-10,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O,True,2,quinone_A(370); quinone_A(370),True,False,False,True,False
+gsk-1904529a,2.3513289859610916e-10,2,"LINCS_Down,LINCS_Up",CCC1=CC(=C(C=C1N2CCC(CC2)N3CCN(CC3)S(=O)(=O)C)OC)NC4=NC=CC(=N4)C5=C(N=C6N5C=CC=C6)C7=CC(=C(C=C7)OC)C(=O)NC8=C(C=CC=C8F)F,False,0,,True,False,False,False,False
+norepinephrine,2.4300098547946587e-10,2,"DSigDB,DrugMatrix",C1=CC(=C(C=C1C(CN)O)O)O,True,2,catechol_A(92); catechol_A(92),True,False,False,True,False
+at7867,2.537360011088422e-10,2,"LINCS_Down,LINCS_Up",C1CNCCC1(C2=CC=C(C=C2)C3=CNN=C3)C4=CC=C(C=C4)Cl,False,0,,True,False,False,False,False
+gw-5074,3.3185350877310547e-10,2,"LINCS_Down,LINCS_Up",C1=CC2=C(C=C1I)C(=CC3=CC(=C(C(=C3)Br)O)Br)C(=O)N2,False,0,,True,False,False,False,False
+securinine,3.571837800320798e-10,3,"DSigDB,LINCS_Down,LINCS_Up",C1CCN2C(C1)C34CC2C=CC3=CC(=O)O4,False,0,,True,False,False,False,False
+curcumin,4.137821748059632e-10,3,"DSigDB,LINCS_Down,LINCS_Up",COC1=C(C=CC(=C1)C=CC(=O)CC(=O)C=CC2=CC(=C(C=C2)O)OC)O,False,0,,True,True,True,True,True
+ch5424802,5.213272524549738e-10,2,"LINCS_Down,LINCS_Up",CCC1=CC2=C(C=C1N3CCC(CC3)N4CCOCC4)C(C5=C(C2=O)C6=C(N5)C=C(C=C6)C#N)(C)C,False,0,,True,False,False,False,False
+npk76-ii-72-1,5.661791471097467e-10,2,"LINCS_Down,LINCS_Up",CC1CC(=O)N(C2=CN=C(N=C2N1C3CCCC3)NC4=C(C=C(C=C4)C(=O)NC5CCN(CC5)C)OC)C,False,0,,True,False,False,False,False
+cc-401,6.643807383471756e-10,2,"LINCS_Down,LINCS_Up",C1CCN(CC1)CCOC2=CC=CC(=C2)C3=NNC4=C3C=C(C=C4)C5=NC=NN5,False,0,,True,False,False,False,False
+belinostat,7.313519663816634e-10,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC=C(C=C1)NS(=O)(=O)C2=CC=CC(=C2)C=CC(=O)NO,False,0,,True,False,False,False,False
+chlorpromazine,8.519833994877982e-10,4,"DSigDB,DrugMatrix,LINCS_Down,LINCS_Up",CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,False,0,,True,False,False,False,False
+ruxolitinib,8.82904889972085e-10,2,"LINCS_Down,LINCS_Up",C1CCC(C1)C(CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3,False,0,,True,False,False,False,False
+cx-5461,8.891500118552224e-10,2,"LINCS_Down,LINCS_Up",CC1=CN=C(C=N1)CNC(=O)C2=C3N(C4=CC=CC=C4S3)C5=C(C2=O)C=CC(=N5)N6CCCN(CC6)C,False,0,,True,False,False,False,False
+pimozide,9.79824717424353e-10,3,"DSigDB,LINCS_Down,LINCS_Up",C1CN(CCC1N2C3=CC=CC=C3NC2=O)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,False,0,,True,False,False,False,False
+wz-4002,1.0279196828931954e-09,2,"LINCS_Down,LINCS_Up",CN1CCN(CC1)C2=CC(=C(C=C2)NC3=NC=C(C(=N3)OC4=CC=CC(=C4)NC(=O)C=C)Cl)OC,False,0,,True,False,False,False,False
+quercetin,1.5727005322659224e-06,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)O,True,2,catechol_A(92); catechol_A(92),True,True,True,True,True
+garcinol,3.061293529354029e-06,3,"DSigDB,LINCS_Down,LINCS_Up",CC(=CCC1CC2(C(=O)C(=C(C3=CC(=C(C=C3)O)O)O)C(=O)C(C2=O)(C1(C)C)CC=C(C)C)CC(CC=C(C)C)C(=C)C)C,True,2,catechol_A(92); catechol_A(92),True,True,False,True,False
+luteolin,2.9465671013740127e-05,3,"DSigDB,LINCS_Down,LINCS_Up",C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O)O,True,2,catechol_A(92); catechol_A(92),True,True,True,True,True
+pterostilbene,0.0001031105578062,3,"DSigDB,LINCS_Down,LINCS_Up",COC1=CC(=CC(=C1)C=CC2=CC=C(C=C2)O)OC,False,0,,True,False,True,False,True
+rottlerin,0.0197904205740803,3,"DSigDB,LINCS_Down,LINCS_Up",CC1=C(C(=C(C(=C1O)C(=O)C)O)CC2=C(C(=C3C(=C2O)C=CC(O3)(C)C)C(=O)C=CC4=CC=CC=C4)O)O,False,0,,True,True,False,True,False
+epigallocatechin,0.0714739856753381,2,"LINCS_Down,LINCS_Up",C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C(=C3)O)O)O)O,True,2,catechol_A(92); catechol_A(92),True,True,False,True,False
+naringenine,0.3516104488864686,2,"LINCS_Down,LINCS_Up",C1C(OC2=CC(=CC(=C2C1=O)O)O)C3=CC=C(C=C3)O,False,0,,True,True,True,True,True
+hypericin,0.9304496642343916,2,"LINCS_Down,LINCS_Up",CC1=CC(=O)C2=C(C3=C(C=C(C4=C3C5=C2C1=C6C(=CC(=O)C7=C(C8=C(C=C(C4=C8C5=C67)O)O)O)C)O)O)O,False,0,,True,True,False,True,False

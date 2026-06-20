@@ -1,0 +1,49 @@
+{
+  "dataset": "PXD040135",
+  "description": "Mouse cardiac I/R, LFQ proteomics, n=3 per group",
+  "total_proteins_quantified": 999,
+  "key_genes_total": 28,
+  "key_genes_detected": 3,
+  "directional_concordance_n": 1,
+  "directional_concordance_pct": 33.3,
+  "spearman_rho": null,
+  "pxd046631_comparison": {
+    "concordance": "50.7%",
+    "spearman_rho": 0.098,
+    "detected": 14
+  },
+  "concordant_genes": [
+    "PRDX1"
+  ],
+  "discordant_genes": [
+    "TXN2",
+    "ME1"
+  ],
+  "undetected_genes": [
+    "OGT",
+    "OGA",
+    "MGEA5",
+    "NFE2L2",
+    "KEAP1",
+    "BACH1",
+    "GPX4",
+    "ACSL4",
+    "SLC7A11",
+    "HMOX1",
+    "FTH1",
+    "FTL",
+    "TFRC",
+    "NQO1",
+    "GCLC",
+    "GCLM",
+    "TXN",
+    "SRXN1",
+    "SQSTM1",
+    "G6PD",
+    "HIF1A",
+    "NFKB1",
+    "RELA",
+    "STAT3",
+    "PTGS2"
+  ]
+}

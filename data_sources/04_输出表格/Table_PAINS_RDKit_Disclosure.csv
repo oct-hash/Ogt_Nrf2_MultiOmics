@@ -1,0 +1,27 @@
+Drug,Fisher_P,N_DBs,RDKit_PAINS,lit_is_pains,lit_is_nrf2_known,Filter_Reason
+withaferin-a,1.5181267304855021e-33,2,False,True,True,Lit PAINS + Known Nrf2
+mitoxantrone,3.6339917349062532e-31,4,True,False,False,RDKit PAINS
+celastrol,1.357900322684861e-28,3,False,True,True,Lit PAINS + Known Nrf2
+geldanamycin,6.5016348809043965e-28,3,True,False,False,RDKit PAINS
+tanespimycin,2.2740975576255272e-26,3,True,False,False,RDKit PAINS
+jw-7-24-1,7.352500568574425e-23,2,True,False,False,RDKit PAINS
+menadione,4.954975408483823e-18,3,True,False,False,RDKit PAINS
+torin-1,1.8131360412556203e-16,2,True,False,False,RDKit PAINS
+wh-4-025,4.765868129996257e-16,2,True,False,False,RDKit PAINS
+mk-1775,6.374799300545727e-16,2,True,False,False,RDKit PAINS
+nvp-bgt226,2.480202369773085e-13,2,True,False,False,RDKit PAINS
+syk-inhibitor,3.4791977201770266e-13,2,True,False,False,RDKit PAINS
+c646,3.750343884727416e-13,2,True,False,False,RDKit PAINS
+resveratrol,7.283591274302338e-13,3,False,True,True,Lit PAINS + Known Nrf2
+genistein,9.104455236199746e-13,4,False,True,True,Lit PAINS + Known Nrf2
+doxorubicin,2.2748051167988083e-10,4,True,False,False,RDKit PAINS
+norepinephrine,2.4300098547946587e-10,2,True,False,False,RDKit PAINS
+curcumin,4.137821748059632e-10,3,False,True,True,Lit PAINS + Known Nrf2
+quercetin,1.5727005322659224e-06,3,True,True,True,RDKit PAINS + Lit PAINS + Known Nrf2
+garcinol,3.061293529354029e-06,3,True,True,False,RDKit PAINS + Lit PAINS
+luteolin,2.9465671013740127e-05,3,True,True,True,RDKit PAINS + Lit PAINS + Known Nrf2
+pterostilbene,0.0001031105578062,3,False,False,True,Known Nrf2
+rottlerin,0.0197904205740803,3,False,True,False,Lit PAINS
+epigallocatechin,0.0714739856753381,2,True,True,False,RDKit PAINS + Lit PAINS
+naringenine,0.3516104488864686,2,False,True,True,Lit PAINS + Known Nrf2
+hypericin,0.9304496642343916,2,False,True,False,Lit PAINS

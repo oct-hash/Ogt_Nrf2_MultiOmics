@@ -1,0 +1,23 @@
+﻿gene_symbol,bach1_regulation,notes
+HMOX1,repressed,"Strongest BACH1 target; 2.33x up at 24h, 7.19x at 72h"
+GCLM,repressed,"Glutamate-cysteine ligase modifier; 1.65x at 24h, 2.00x at 72h"
+FTH1,repressed,Ferritin heavy chain; 1.68x at 24h
+SQSTM1,repressed,"p62/Sequestosome-1; 1.58x at 24h, 1.42x at 72h"
+ME1,repressed,Malic enzyme 1; 1.45x at 72h
+SLC7A11,activated,"Cystine/glutamate transporter; DOWN upon KD (-0.66x at 24h, -0.42x at 72h)"
+GCLC,no_change,Has ChIP peak but no expression change upon KD
+FTL,no_change,Ferritin light chain; has ChIP peak but no expression change
+CCNG2,repressed,Cyclin G2
+CDKN1A,repressed,p21
+BTG2,repressed,BTG family member 2
+GADD45A,repressed,Growth arrest and DNA damage
+PLK2,repressed,Polo-like kinase 2
+TXN,repressed,Thioredoxin
+TXN2,repressed,Thioredoxin 2
+SRXN1,repressed,Sulfiredoxin 1
+OSGIN1,repressed,Oxidative stress induced growth inhibitor 1
+BLVRB,repressed,Biliverdin reductase B
+SLC48A1,repressed,Heme transporter HRG1
+ABCB6,repressed,Mitochondrial heme transporter
+PPIF,repressed,Mitochondrial cyclophilin
+SLC25A37,repressed,Mitoferrin-1

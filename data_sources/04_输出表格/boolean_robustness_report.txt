@@ -1,0 +1,596 @@
+===============================================================
+    布尔网络鲁棒性补充分析报告
+    O-GlcNAc-Nrf2-Ferroptosis 调控网络
+    Reviewer Response - Supplementary Analyses
+===============================================================
+
+## 补充分析 1: 参数噪声鲁棒性（阈值敏感性）
+
+### 方法
+在每个同步更新步骤中，对每个非输入节点以概率 p (0/2/5/10/15/20%) 随机翻转。
+每个条件 × 噪声水平组合进行 500 次独立模拟（每次 200 步）。
+评估指标：吸引子多样性（唯一吸引子数量）、主导吸引子频率、香农熵。
+
+### 结果摘要
+ Condition NoiseLevel NTrials UniqueAttractors DominantAttractorFreq
+      Sham       0.00     500                1                 1.000
+      Sham       0.02     500              480                 0.006
+      Sham       0.05     500              497                 0.004
+      Sham       0.10     500              500                 0.002
+      Sham       0.15     500              500                 0.002
+      Sham       0.20     500              500                 0.002
+     WT_IR       0.00     500                1                 1.000
+     WT_IR       0.02     500              475                 0.006
+     WT_IR       0.05     500              498                 0.004
+     WT_IR       0.10     500              500                 0.002
+     WT_IR       0.15     500              500                 0.002
+     WT_IR       0.20     500              500                 0.002
+    Ogt_KO       0.00     500                1                 1.000
+    Ogt_KO       0.02     500              477                 0.008
+    Ogt_KO       0.05     500              499                 0.004
+    Ogt_KO       0.10     500              500                 0.002
+    Ogt_KO       0.15     500              500                 0.002
+    Ogt_KO       0.20     500              500                 0.002
+    Oga_KO       0.00     500                1                 1.000
+    Oga_KO       0.02     500              483                 0.004
+    Oga_KO       0.05     500              499                 0.004
+    Oga_KO       0.10     500              500                 0.002
+    Oga_KO       0.15     500              500                 0.002
+    Oga_KO       0.20     500              500                 0.002
+   Nrf2_OE       0.00     500                1                 1.000
+   Nrf2_OE       0.02     500              488                 0.004
+   Nrf2_OE       0.05     500              498                 0.004
+   Nrf2_OE       0.10     500              500                 0.002
+   Nrf2_OE       0.15     500              500                 0.002
+   Nrf2_OE       0.20     500              500                 0.002
+   Nrf2_KO       0.00     500                1                 1.000
+   Nrf2_KO       0.02     500              488                 0.004
+   Nrf2_KO       0.05     500              497                 0.004
+   Nrf2_KO       0.10     500              500                 0.002
+   Nrf2_KO       0.15     500              500                 0.002
+   Nrf2_KO       0.20     500              500                 0.002
+  BACH1_KO       0.00     500                1                 1.000
+  BACH1_KO       0.02     500              486                 0.006
+  BACH1_KO       0.05     500              500                 0.002
+  BACH1_KO       0.10     500              500                 0.002
+  BACH1_KO       0.15     500              500                 0.002
+  BACH1_KO       0.20     500              500                 0.002
+ ShannonEntropy AvgFlipsPerStep
+         0.0000            0.00
+         6.1571            0.64
+         6.2063            1.60
+         6.2146            3.21
+         6.2146            4.79
+         6.2146            6.41
+         0.0000            0.00
+         6.1432            0.64
+         6.2091            1.60
+         6.2146            3.20
+         6.2146            4.79
+         6.2146            6.40
+         0.0000            0.00
+         6.1481            0.64
+         6.2118            1.60
+         6.2146            3.20
+         6.2146            4.79
+         6.2146            6.40
+         0.0000            0.00
+         6.1675            0.64
+         6.2118            1.60
+         6.2146            3.21
+         6.2146            4.80
+         6.2146            6.40
+         0.0000            0.00
+         6.1813            0.64
+         6.2091            1.60
+         6.2146            3.19
+         6.2146            4.80
+         6.2146            6.41
+         0.0000            0.00
+         6.1813            0.64
+         6.2063            1.60
+         6.2146            3.20
+         6.2146            4.81
+         6.2146            6.40
+         0.0000            0.00
+         6.1747            0.64
+         6.2146            1.60
+         6.2146            3.20
+         6.2146            4.79
+         6.2146            6.40
+
+## 补充分析 2: 初始状态鲁棒性（吸引盆分析）
+
+### 方法
+对每个实验条件，生成 1000 个随机初始状态（非固定节点随机 0/1）。
+从每个随机状态运行同步布尔更新至吸引子。
+评估指标：吸引子数量、主导吸引盆大小、吸引盆香农熵。
+
+### 结果摘要
+ Condition NRandom NAttractors DominantBasinSize BasinEntropy
+      Sham    1000         650             0.007       6.3669
+     WT_IR    1000         645             0.006       6.3559
+    Ogt_KO    1000         630             0.005       6.3313
+    Oga_KO    1000         630             0.005       6.3346
+   Nrf2_OE    1000         644             0.005       6.3535
+   Nrf2_KO    1000         631             0.005       6.3196
+  BACH1_KO    1000         641             0.005       6.3473
+                     TopBasinSizes
+ 0.007; 0.005; 0.004; 0.004; 0.004
+ 0.006; 0.005; 0.005; 0.005; 0.004
+ 0.005; 0.005; 0.005; 0.005; 0.005
+ 0.005; 0.005; 0.005; 0.004; 0.004
+ 0.005; 0.005; 0.005; 0.004; 0.004
+ 0.005; 0.005; 0.005; 0.005; 0.005
+ 0.005; 0.005; 0.005; 0.004; 0.004
+
+## 补充分析 3: 异步更新鲁棒性
+
+### 方法
+异步更新：每步随机选择一个节点按其规则更新（general asynchronous update）。
+对每个条件进行 500 次异步轨迹模拟（固定初始状态），以及 200 次随机初始状态模拟。
+评估指标：收敛率、与同步吸引子一致率、吸引子 Jaccard 相似度。
+
+### 3a: 固定初始状态下的异步 vs 同步
+ Condition NTrials AsyncConvergenceRate SyncMatchRate UniqueAsyncAttractors
+      Sham     500                    1         0.844                    30
+     WT_IR     500                    1         0.824                    28
+    Ogt_KO     500                    1         0.786                    32
+    Oga_KO     500                    1         0.780                    31
+   Nrf2_OE     500                    1         0.796                    31
+   Nrf2_KO     500                    1         0.828                    26
+  BACH1_KO     500                    1         0.824                    31
+ MeanAsyncConvergeSteps MedianAsyncConvergeSteps
+                  137.2                    135.0
+                  136.7                    135.5
+                  134.7                    132.0
+                  134.6                    132.0
+                  135.2                    133.0
+                  137.7                    135.0
+                  135.4                    133.5
+
+### 3b: 随机初始状态下的异步 vs 同步
+ Condition NRandom SyncConvergenceRate AsyncConvergenceRate SyncAttractorCount
+      Sham     200                   1                    1                184
+     WT_IR     200                   1                    1                179
+    Ogt_KO     200                   1                    1                179
+    Oga_KO     200                   1                    1                183
+   Nrf2_OE     200                   1                    1                169
+   Nrf2_KO     200                   1                    1                186
+  BACH1_KO     200                   1                    1                186
+ AsyncAttractorCount SameAttractorRate AttractorJaccard
+                 192             0.820           0.7091
+                 186             0.795           0.6591
+                 185             0.800           0.6621
+                 191             0.795           0.6696
+                 175             0.820           0.6780
+                 190             0.820           0.6937
+                 190             0.805           0.6711
+
+## 补充分析 4: 规则阈值敏感性分析（AST 级逻辑扰动）
+
+### 方法
+对 4 个关键节点（BACH1、KEAP1、NFE2L2、HMOX1）的布尔逻辑规则进行 AST 级扰动。
+扰动类型：AND→OR（放宽逻辑约束）、OR→AND（收紧逻辑约束）、
+add_activator（引入额外激活输入）、add_inhibitor（引入额外抑制输入）、
+remove_NOT（去除逻辑非）。
+对每个扰动后的网络，在所有 7 个实验条件下运行同步吸引子分析。
+评估指标：铁死亡翻转、Hamming 距离、受影响节点。
+
+### 结果摘要
+平均 Hamming 距离（各节点×扰动）:
+ TargetNode PerturbationType MeanHammingDistance
+      BACH1    add_activator           6.8571429
+      HMOX1    add_activator           0.0000000
+      KEAP1    add_activator           0.0000000
+     NFE2L2    add_activator           0.7142857
+      BACH1    add_inhibitor           0.0000000
+      HMOX1    add_inhibitor           1.0000000
+      KEAP1    add_inhibitor           3.7142857
+     NFE2L2    add_inhibitor           0.0000000
+      BACH1        AND_to_OR           6.8571429
+      HMOX1        AND_to_OR           0.0000000
+     NFE2L2       remove_NOT           0.7142857
+
+### 完整结果
+ TargetNode PerturbationType
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1        AND_to_OR
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_activator
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      BACH1    add_inhibitor
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_activator
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+      KEAP1    add_inhibitor
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2       remove_NOT
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_activator
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+     NFE2L2    add_inhibitor
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1        AND_to_OR
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_activator
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+      HMOX1    add_inhibitor
+                                          PerturbedRule Condition
+                              (BACH1_basal OR NOT heme)      Sham
+                              (BACH1_basal OR NOT heme)     WT_IR
+                              (BACH1_basal OR NOT heme)    Ogt_KO
+                              (BACH1_basal OR NOT heme)    Oga_KO
+                              (BACH1_basal OR NOT heme)   Nrf2_OE
+                              (BACH1_basal OR NOT heme)   Nrf2_KO
+                              (BACH1_basal OR NOT heme)  BACH1_KO
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)      Sham
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)     WT_IR
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)    Ogt_KO
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)    Oga_KO
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)   Nrf2_OE
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)   Nrf2_KO
+      ((BACH1_basal AND NOT heme) OR PERTURB_ACTIVATOR)  BACH1_KO
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)      Sham
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)     WT_IR
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)    Ogt_KO
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)    Oga_KO
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)   Nrf2_OE
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)   Nrf2_KO
+ ((BACH1_basal AND NOT heme) AND NOT PERTURB_INHIBITOR)  BACH1_KO
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)      Sham
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)     WT_IR
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)    Ogt_KO
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)    Oga_KO
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)   Nrf2_OE
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)   Nrf2_KO
+                     (KEAP1_basal OR PERTURB_ACTIVATOR)  BACH1_KO
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)      Sham
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)     WT_IR
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)    Ogt_KO
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)    Oga_KO
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)   Nrf2_OE
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)   Nrf2_KO
+                (KEAP1_basal AND NOT PERTURB_INHIBITOR)  BACH1_KO
+                                                  KEAP1      Sham
+                                                  KEAP1     WT_IR
+                                                  KEAP1    Ogt_KO
+                                                  KEAP1    Oga_KO
+                                                  KEAP1   Nrf2_OE
+                                                  KEAP1   Nrf2_KO
+                                                  KEAP1  BACH1_KO
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)      Sham
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)     WT_IR
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)    Ogt_KO
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)    Oga_KO
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)   Nrf2_OE
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)   Nrf2_KO
+                       (NOT KEAP1 OR PERTURB_ACTIVATOR)  BACH1_KO
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)      Sham
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)     WT_IR
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)    Ogt_KO
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)    Oga_KO
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)   Nrf2_OE
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)   Nrf2_KO
+                  (NOT KEAP1 AND NOT PERTURB_INHIBITOR)  BACH1_KO
+                                    (NRF2 OR NOT BACH1)      Sham
+                                    (NRF2 OR NOT BACH1)     WT_IR
+                                    (NRF2 OR NOT BACH1)    Ogt_KO
+                                    (NRF2 OR NOT BACH1)    Oga_KO
+                                    (NRF2 OR NOT BACH1)   Nrf2_OE
+                                    (NRF2 OR NOT BACH1)   Nrf2_KO
+                                    (NRF2 OR NOT BACH1)  BACH1_KO
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)      Sham
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)     WT_IR
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)    Ogt_KO
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)    Oga_KO
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)   Nrf2_OE
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)   Nrf2_KO
+            ((NRF2 AND NOT BACH1) OR PERTURB_ACTIVATOR)  BACH1_KO
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)      Sham
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)     WT_IR
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)    Ogt_KO
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)    Oga_KO
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)   Nrf2_OE
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)   Nrf2_KO
+       ((NRF2 AND NOT BACH1) AND NOT PERTURB_INHIBITOR)  BACH1_KO
+ FerroptosisFlipped CellSurvivalFlipped HammingDistance
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               0
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               8
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               4
+                 NA                  NA               4
+                 NA                  NA               4
+                 NA                  NA               4
+                 NA                  NA               3
+                 NA                  NA               3
+                 NA                  NA               4
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               1
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               0
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                 NA                  NA               1
+                                             AffectedNodes PerturbedFerroptosis
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+                                                                             NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+ BACH1; ARE_Occupancy; NQO1; PRDX1; HMOX1; GCLM; FTH1; ME1                   NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                            NFE2L2; KEAP1; SLC7A11; SQSTM1                   NA
+                            NFE2L2; KEAP1; SLC7A11; SQSTM1                   NA
+                            NFE2L2; KEAP1; SLC7A11; SQSTM1                   NA
+                            NFE2L2; KEAP1; SLC7A11; SQSTM1                   NA
+                                    KEAP1; SLC7A11; SQSTM1                   NA
+                                    KEAP1; SLC7A11; SQSTM1                   NA
+                            NFE2L2; KEAP1; SLC7A11; SQSTM1                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                                             NA
+                                                                             NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                    NFE2L2                   NA
+                                                                             NA
+                                                                             NA
+                                                    NFE2L2                   NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                                             NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+                                                     HMOX1                   NA
+ BaselineFerroptosis
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+                  NA
+
+## 综合结论
+
+1. 噪声鲁棒性: 在 >0% 噪声水平下，平均吸引子熵为 6.204。网络在噪声下表现出一定多样性，但主导吸引子保持稳定。
+2. 初始状态鲁棒性: 平均吸引盆熵 = 6.344, 平均主导盆大小 = 0.005。网络存在多个显著吸引盆，提示初始状态可影响稳态结果。
+3. 更新模式鲁棒性: 异步 vs 同步吸引子一致率 = 0.812, Jaccard = 0.678。同步与异步更新产生相似的吸引子格局，证明模型对更新模式具有鲁棒性。
+4. 规则敏感性: 36/77 扰动条件导致网络状态变化（Hamming > 0），平均 Hamming 距离 = 1.8。 Ferroptosis 并非独立网络节点（仅为分类标签），故以 Hamming 距离评估扰动影响。
+
+===============================================================
+分析完成时间: 2026-06-18 04:00:53.568759
+===============================================================

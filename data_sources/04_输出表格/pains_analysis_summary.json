@@ -1,0 +1,14 @@
+{
+  "total_cross_db_compounds": 2838,
+  "pains_compounds": 14,
+  "known_nrf2_activators": 8,
+  "filtered_total": 15,
+  "non_pains_candidates": 2823,
+  "non_pains_multi_db": 2823,
+  "non_pains_triple_db": 329,
+  "auc_roc": 0.9349,
+  "auc_pr": 0.0347,
+  "enrichment_factor_top10": 6.27,
+  "mann_whitney_p": "1.05e-05",
+  "fold_enrichment_score": 5.6
+}
