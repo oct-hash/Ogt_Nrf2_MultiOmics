@@ -4,7 +4,7 @@ Author Information for Cell Reports Submission
 Corresponding Author:
 Guoxin Zhang
 Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China
-Email: 9201941391@fjmu.edu.cn
+Email: Guoxin Zhang <9201941391@fjmu.edu.cn>
 
 ORCID: [To be added by author]
 

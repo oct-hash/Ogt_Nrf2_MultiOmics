@@ -16,7 +16,7 @@ MANUSCRIPT = BASE / "manuscript"
 AUTHOR_NAME = "Guoxin Zhang"
 AUTHOR_AFFILIATION = "Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China"
 AUTHOR_EMAIL = "9201941391@fjmu.edu.cn"
-CORRESPONDING = f"{AUTHOR_NAME} ({AUTHOR_EMAIL}), {AUTHOR_AFFILIATION}"
+CORRESPONDING = f"{AUTHOR_NAME} <{AUTHOR_EMAIL}>, {AUTHOR_AFFILIATION}"
 
 print("=" * 60)
 print("Creating Supplementary Tables S1-S15 Excel Workbook")
@@ -382,7 +382,7 @@ if methods_path.exists():
     content = methods_path.read_text(encoding="utf-8")
     # Replace the placeholder Lead Contact
     old_lead = "Lead Contact\nFurther information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, [NAME] ([EMAIL])."
-    new_lead = f"Lead Contact\nFurther information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, {AUTHOR_NAME} ({AUTHOR_EMAIL})."
+    new_lead = f"Lead Contact\nFurther information and requests for resources and reagents should be directed to and will be fulfilled by the Lead Contact, {AUTHOR_NAME} <{AUTHOR_EMAIL}>."
     content = content.replace(old_lead, new_lead)
     methods_path.write_text(content, encoding="utf-8")
     print(f"Updated Lead Contact in: {methods_path}")
