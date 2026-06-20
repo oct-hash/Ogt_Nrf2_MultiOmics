@@ -8,7 +8,7 @@ Email: zhangguoxin@fjmu.edu.cn
 
 ORCID: [To be added by author]
 
-Running Title (¡Ü50 characters):
+Running Title (ï¿½ï¿½50 characters):
 Ogt-Nrf2-ferroptosis axis in acute cardiac I/R
 
 Keywords (6-8):
@@ -23,7 +23,7 @@ G.Z. conceived the study, performed all computational analyses, interpreted
 results, and wrote the manuscript.
 
 Data and Code Availability:
-All original code has been deposited at GitHub (URL to be added).
+All original code has been deposited at GitHub (https://github.com/oct-hash/Ogt_Nrf2_MultiOmics).
 All sequencing and proteomics data are publicly available at GEO and PRIDE
 with accession numbers listed in STAR Methods.
 

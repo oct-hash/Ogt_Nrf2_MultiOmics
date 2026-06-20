@@ -5,7 +5,7 @@ Figure 1. Study Overview and Transcriptomic Landscape of Acute Myocardial I/R In
 (B) Volcano plot of differential expression in GSE193997 (I/R 6h vs Sham). Genes with adjusted P < 0.05 are colored (red: upregulated, blue: downregulated). Key genes are labeled: Ogt (log2FC = −0.56, padj = 3.09 × 10⁻⁷), Hmox1 (log2FC = +4.43), Slc7a11 (log2FC = +4.07), Rela (log2FC = +1.13, padj = 5.3 × 10⁻¹⁵). In total, 6,556 DEGs were identified. See also Figure S1 and Table S1.
 
 Figure 2. Coordinated Nrf2-ARE and Ferroptosis Pathway Activation with Healthy Baseline Contrast
-(A) Gene set enrichment analysis (GSEA) of the Nrf2-ARE custom gene set (47 curated genes, 43 detected). Normalized enrichment score (NES) = 1.77, FDR = 0.001, based on genes ranked by signed −log10(P) × log2FC. See also Figure S2.
+(A) Gene set enrichment analysis (GSEA) of the combined Nrf2-ARE/ferroptosis custom gene set (47 curated genes, 43 detected). Normalized enrichment score (NES) = 1.77, FDR = 0.001, based on genes ranked by signed −log10(P) × log2FC. See also Figure S2.
 (B) Heatmap of core Nrf2, ferroptosis, and O-GlcNAc cycling genes across Sham and I/R 6h samples (n = 3 per group). Z-score of log2(TPM+1) expression is shown. Genes are ordered by hierarchical clustering.
 (C) Baseline expression of core genes in healthy human left ventricle (GTEx v8, n = 431 donors). Median TPM values: OGT = 39.2, HMOX1 = 3.0, SLC7A11 ≈ 0, NFE2L2 = 15.3. The "off-in-health, on-in-disease" pattern indicates that the Nrf2-ferroptosis program is specifically engaged during acute cardiac injury. See also Table S13.
 
