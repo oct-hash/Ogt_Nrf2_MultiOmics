@@ -77,7 +77,7 @@ This repository contains the complete computational analysis pipeline for a mult
 Guoxin Zhang  
 Quanzhou First Hospital Affiliated to Fujian Medical University  
 Quanzhou, Fujian 362000, China  
-Email: zhangguoxin@fjmu.edu.cn
+Email: 9201941391@fjmu.edu.cn
 
 ## License
 

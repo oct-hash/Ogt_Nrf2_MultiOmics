@@ -147,8 +147,8 @@ Priority 2 (Before resubmission, if revision needed):
 ================================================================================
 Author: Guoxin Zhang
 Affiliation: Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China
-Email: zhangguoxin@fjmu.edu.cn
-Corresponding Author: Guoxin Zhang (zhangguoxin@fjmu.edu.cn), Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China
+Email: 9201941391@fjmu.edu.cn
+Corresponding Author: Guoxin Zhang (9201941391@fjmu.edu.cn), Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China
 
 Institutional URL: https://www.qzdyyy.com
 ORCID: [To be added]

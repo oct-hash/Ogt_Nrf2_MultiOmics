@@ -15,7 +15,7 @@ MANUSCRIPT = BASE / "manuscript"
 
 AUTHOR_NAME = "Guoxin Zhang"
 AUTHOR_AFFILIATION = "Quanzhou First Hospital Affiliated to Fujian Medical University, Quanzhou, Fujian 362000, China"
-AUTHOR_EMAIL = "zhangguoxin@fjmu.edu.cn"
+AUTHOR_EMAIL = "9201941391@fjmu.edu.cn"
 CORRESPONDING = f"{AUTHOR_NAME} ({AUTHOR_EMAIL}), {AUTHOR_AFFILIATION}"
 
 print("=" * 60)

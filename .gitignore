@@ -10,3 +10,9 @@ __pycache__/
 Thumbs.db
 未完成.txt
 config.json
+
+# Large raw data files (available from GEO/PRIDE)
+data_sources/02_原始数据/
+validation_data/GSE57338_series_matrix.txt.gz
+validation_data/GPL11532.annot.gz
+data_sources/06_分析脚本/
